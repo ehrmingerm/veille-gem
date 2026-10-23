@@ -1,18 +1,14 @@
 # veille-gem
 
 Veille quotidienne sur les groupes d'entraide mutuelle : collecte automatique,
-archive jour par jour, et site de consultation. Le tout hébergé par ce dépôt,
-sans service tiers ni abonnement.
+archive jour par jour, et site de consultation. Dr. Mickael Worms-Ehrminger.
 
 ## Comment cela fonctionne
 
 ```
 Google Actualités  ──►  GitHub Actions  ──►  jours.json  ──►  GitHub Pages
    (3 requêtes)          chaque matin         l'archive        le site
-                                                   ▲
-                                                   │
-                                       tâche planifiée Claude
-                                     (résumés et tri, facultatif)
+             
 ```
 
 La collecte et le site ne dépendent de rien d'autre que de GitHub. Si la tâche
