@@ -1,7 +1,7 @@
 {
- "maj": "2026-10-23T14:34:50+00:00",
+ "maj": "2026-10-23T14:51:00+00:00",
  "jours_couverts": 1,
- "total": 5,
+ "total": 6,
  "jours": [
   {
    "date": "2026-10-23",
@@ -55,9 +55,19 @@
      "feed": "terme-exact",
      "summary": "",
      "statut": ""
+    },
+    {
+     "id": "u49e11bc2",
+     "title": "Onet-le-Château. Dans le cadre de la semaine sur la santé mentale, le Gem a ouvert ses portes…",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU2Q4SGlaMnhmV2s4aGxVN2tVLVVDRXhRM1EweUFKVmIwYzA3VFYwME9vZGRaejVSQW1ESWN1SGg0cFBQb01rSVlob3J5NzAxU0pJWjloc09iTWNha3hOWlFFQVM3bXQ4U1ZyN201clhZVjJsZ2JiQWd1NFN2cWNEM0pNY0RXZXA5WGZyVUg5Y2Q5U01pRnp0R2wxVFprN21QY3hIVS0xQmNwZThhTjFlRjMzYW50enpHWkJyeXQ3NkVFSDJGbm9xT29CYm5QRDg?oc=5",
+     "source": "Centre Presse Aveyron",
+     "published": "2026-10-16",
+     "feed": "sigle-qualifie",
+     "summary": "",
+     "statut": ""
     }
    ],
-   "collecte": "2026-10-23T14:34:50+00:00",
+   "collecte": "2026-10-23T14:51:00+00:00",
    "flux": [
     {
      "cle": "terme-exact",
@@ -66,12 +76,12 @@
     },
     {
      "cle": "sigle-qualifie",
-     "etat": "echec: HTTP Error 429: Too Many Requests",
-     "retenus": 0
+     "etat": "ok",
+     "retenus": 2
     },
     {
      "cle": "federation",
-     "etat": "echec: HTTP Error 429: Too Many Requests",
+     "etat": "ok",
      "retenus": 0
     }
    ]
