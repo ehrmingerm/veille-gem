@@ -1,0 +1,41 @@
+name: veille-gem
+
+on:
+  schedule:
+    # 04:40 UTC du lundi au vendredi, soit une bonne heure avant la lecture
+    # par l'automatisation. Les crons GitHub partent souvent avec 5 a 20 min
+    # de retard : cette marge absorbe le decalage.
+    - cron: '40 4 * * 1-5'
+  workflow_dispatch:        # permet de lancer la collecte a la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-gem
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collecter les flux
+        run: python collecte.py
+
+      - name: Publier le resultat
+        run: |
+          git config user.name  "veille-gem"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veille.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "veille $(date -u +%F)"
+            git push
+          fi
