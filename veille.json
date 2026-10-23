@@ -1,78 +1,41 @@
-{
- "genere": "2026-10-23T14:55:23+00:00",
- "fenetre_jours": 10,
- "flux": [
-  {
-   "cle": "terme-exact",
-   "requete": "\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\"",
-   "etat": "ok",
-   "bruts": 100,
-   "retenus": 5
-  },
-  {
-   "cle": "sigle-qualifie",
-   "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
-   "etat": "ok",
-   "bruts": 69,
-   "retenus": 2
-  },
-  {
-   "cle": "federation",
-   "requete": "\"FIGEM\" OR \"CNIGEM\"",
-   "etat": "ok",
-   "bruts": 9,
-   "retenus": 0
-  }
- ],
- "total": 6,
- "items": [
-  {
-   "id": "u8ddac0a7",
-   "title": "Lesparre-Médoc : le groupe d’entraide mutuelle Oxygem a fêté ses dix ans dans le partage",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLXRCOXR1S3A1QVQzbkY3X1ZDXzBqTU5IU0NoOGNFaEVaV1R3aU01UW5iaWdjUVJGSFFUOERfbFNrVnBiSC1aMUtIT28wcXlQX2NnTE1hR2VLeGxubXE3SzRZT2pmOGhWZ1ZGcUlUaVk1ZDBrSVhtUFNFczcyTUlfUm42M0d3Z1lkd25RaEpXMzIweHRkZ0kzaUxRT2RJdGNtSGZYTjZYNy1WeGdNSFFBdVdadDJiRE5qaWcyWHkzRjZKZ2IwUVlmMTJZQjFFcGk3ckJPX0pPbDQtM1VGNmdR?oc=5",
-   "source": "Sud Ouest",
-   "published": "2026-10-22",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u197cc557",
-   "title": "Pineuilh : le Groupe d’entraide mutuelle, une passerelle pour rompre l’isolement et retrouver une vie ordinaire",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObzRaNDU5ODhfYjJjWnNTSjBGazhFXzVUbW5oTEFFVTZ5YVNXeWhPNlU4aDE3RnBiWms4T1hFbmRfT0xPaVVDR2tLNXJtZ2VTLU1qN25fc2xNM3ZFWnJuN0FJSTFkQWVfNUw4ZzJkOTZEMnh4Nkx5dGI4emxiY0xpNmZ2V0Q3TmlGRGVmZjlUbnluOWV2ckFnX0EyZk95c1NleHE4TENGalFxcW1COHZxbGdxTTlMZEF1a2lUcWxFUmZZZDI0VzltYksyZUYxLUtyZVllVWxTWm5qeWdTdDk1QTh5TjZSRm5Qd0dpRnZtUzluaWZf?oc=5",
-   "source": "Sud Ouest",
-   "published": "2026-10-19",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u49e11bc2",
-   "title": "Onet-le-Château. Dans le cadre de la semaine sur la santé mentale, le Gem a ouvert ses portes…",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQU2Q4SGlaMnhmV2s4aGxVN2tVLVVDRXhRM1EweUFKVmIwYzA3VFYwME9vZGRaejVSQW1ESWN1SGg0cFBQb01rSVlob3J5NzAxU0pJWjloc09iTWNha3hOWlFFQVM3bXQ4U1ZyN201clhZVjJsZ2JiQWd1NFN2cWNEM0pNY0RXZXA5WGZyVUg5Y2Q5U01pRnp0R2wxVFprN21QY3hIVS0xQmNwZThhTjFlRjMzYW50enpHWkJyeXQ3NkVFSDJGbm9xT29CYm5QRDg?oc=5",
-   "source": "Centre Presse Aveyron",
-   "published": "2026-10-16",
-   "feed": "sigle-qualifie"
-  },
-  {
-   "id": "u80e63a73",
-   "title": "« Le Groupe d’entraide mutuelle fêtera ses 20 ans le 24 octobre »",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdEJXdF9xRklaWV9iUzlRZjRLMTBSOGtXamVfZVJmMFBGRjlqV0E5Mi1QX0g4a1gwYzBaX2FBeXlZTjZFc0xQN0lRUnBqSUczZV9CYlBkS0htZ0dac3hCb21sNzFGQURTR1NTR2VfeWtNNS1ZMDJzUXVrVjlMZkFEemg2S0ZWRmFhbHlMS2puZE5uZ2NYeEtNTkdnTVU3ekxOa3RrR0luenNoeW8?oc=5",
-   "source": "Vosges Matin",
-   "published": "2026-10-15",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u146566b2",
-   "title": "Montrevel-en-Bresse. Le Groupe d’entraide mutuelle prépare son loto afin de financer ses actions",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONkk3c2c2WDJpMlFvc04tTUhrbG90WWZKMDhUNzBadE9hY0NWLVJmVWhvZVlxTkUyeUZsdm5qVlBaWlgzcEVwWmlBUzczVWR0Z2p3d2xWSmdIb1Y2Rmx6U25BZXV5dnpZMkE3Z3lmNkRWTktPcm0xeC1XTGFUZldSZ25nU1RTUFNWNE1Zdmhud3hWUTI0NEdSS2NrU2RoZ254OGt2NjdnVG1jUlgzaGVwUGxmRzhxc0dfVXN2enJESHI4TWpOaUE?oc=5",
-   "source": "Le Progrès",
-   "published": "2026-10-15",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "ue91bf7f5",
-   "title": "Journée Portes Ouvertes 2026 du GEM LE CAP DE BONNE ESPERANCE Groupe d’Entraide Mutuelle LE CAP DE BONNE ESPERANCE Paris",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPemFRNnp2aVdFbjlIUXlPMFlfZXVYUTBkUlV5S0FxWi1uSlI3d1NOb2pyV2ZaRmUxMnVBMVYwTzM0YmV1VHNyNzN0aUd1a0Y3VV9xblF3Ri1qMDRfZ1lObUNLNnZiVjd3QlptdFo5OWpBZ1NnTVBDZGh2MzNVbnk2V09uX0JvWTdFeWdPb3Y0Z2JkdERibkcxYVZJa1RVVXFDb3VyUHZYeWREZndsV2Q4MGxtdFFxdmEwMkl2TVBLU2REYkdrZWJ1bEt1WUN6Y0hYa09DTUk3eTk2Ny1HeWFaR1hYRzc4bFFmLVloemNBZmVWZFltVkdYREFFTTgtaENHN01iOHB3?oc=5",
-   "source": "Unidivers",
-   "published": "2026-10-14",
-   "feed": "terme-exact"
-  }
- ]
-}
+name: veille-gem
+
+on:
+  schedule:
+    # 04:40 UTC du lundi au vendredi, soit une bonne heure avant la lecture
+    # par la tache planifiee. Les crons GitHub partent souvent avec 5 a 20 min
+    # de retard : cette marge absorbe le decalage.
+    - cron: '40 4 * * 1-5'
+  workflow_dispatch:        # permet de lancer la collecte a la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-gem
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Collecter les flux
+        run: python collecte.py
+
+      - name: Publier le resultat
+        run: |
+          git config user.name  "veille-gem"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veille.json jours.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "veille $(date -u +%F)"
+            git push
+          fi
