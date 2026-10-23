@@ -250,7 +250,7 @@ a { color: inherit; }
     <p>Collecte automatique chaque matin en semaine, à partir de trois requêtes Google Actualités. Une journée sans référence signifie qu'aucun résultat nouveau n'a été trouvé, pas que la veille ne s'est pas exécutée.</p>
     <p>Le sigle GEM est partagé avec la commune de Gémenos, l'école Grenoble École de Management et plusieurs festivals. Les faux positifs connus sont écartés à la collecte ; les autres se marquent à la lecture.</p>
     <p>Un marquage posé ici reste dans votre navigateur : il ne suit pas d'un appareil à l'autre et vos collègues ne le voient pas. Le tri partagé, lui, est inscrit dans le fichier de la veille.</p>
-    <p>Les résumés sont des reformulations, jamais des extraits. Les liens passent par une redirection Google Actualités.</p>
+    <p>Les liens passent par une redirection Google Actualités.</p>
   </div>
 </footer>
 
@@ -397,7 +397,7 @@ a { color: inherit; }
     body.appendChild(h);
 
     if (it.summary) body.appendChild(el("p", "sum", it.summary));
-    else body.appendChild(el("p", "sum vide", "Titre seul, pas encore de résumé."));
+    
     row.appendChild(body);
 
     var acts = el("div", "acts");
