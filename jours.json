@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-23T14:55:23+00:00",
+ "maj": "2026-10-23T15:01:04+00:00",
  "jours_couverts": 1,
  "total": 6,
  "liens_non_resolus": 0,
@@ -80,7 +80,7 @@
      "resolu": true
     }
    ],
-   "collecte": "2026-10-23T14:55:23+00:00",
+   "collecte": "2026-10-23T15:01:04+00:00",
    "flux": [
     {
      "cle": "terme-exact",
