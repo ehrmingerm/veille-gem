@@ -61,11 +61,35 @@ EXCLUSIONS = re.compile(
     re.IGNORECASE,
 )
 
+# Hotes qui ne sont jamais un article : plateformes, mesure d'audience, CDN,
+# regies, reseaux sociaux. Une adresse de ce type signale une erreur de lecture.
 HOTES_A_IGNORER = re.compile(
-    r"(^|\.)(google\.[a-z.]+|gstatic\.com|googleusercontent\.com|youtube\.com|"
-    r"schema\.org|w3\.org|policies\.google\.com)$", re.IGNORECASE)
+    r"(^|\.)("
+    r"google\.[a-z.]{2,}|google-analytics\.com|googletagmanager\.com|"
+    r"googleapis\.com|googlesyndication\.com|googleadservices\.com|"
+    r"googleusercontent\.com|gstatic\.com|ggpht\.com|doubleclick\.net|"
+    r"ampproject\.org|youtube\.com|youtu\.be|blogger\.com|"
+    r"schema\.org|w3\.org|example\.com|localhost|"
+    r"facebook\.com|twitter\.com|x\.com|linkedin\.com|instagram\.com|"
+    r"pinterest\.[a-z.]{2,}|whatsapp\.com|t\.me|reddit\.com|tiktok\.com|"
+    r"cloudflare\.com|jsdelivr\.net|unpkg\.com|bootstrapcdn\.com|jquery\.com|"
+    r"cookielaw\.org|onetrust\.com|didomi\.io|sentry\.io|hotjar\.com|"
+    r"chartbeat\.com|outbrain\.com|taboola\.com|criteo\.com|adsrvr\.org|"
+    r"amazon-adsystem\.com|adnxs\.com|scorecardresearch\.com|quantserve\.com"
+    r")$", re.IGNORECASE)
+
+# Extensions de fichier qui ne sont jamais une page d'article.
+EXTENSIONS_A_IGNORER = re.compile(
+    r"\.(js|mjs|css|map|json|xml|txt|ico|png|jpe?g|gif|svg|webp|avif|bmp|"
+    r"woff2?|ttf|otf|eot|mp4|webm|mp3|wav|zip|gz)$", re.IGNORECASE)
+
+# Chemins techniques : ressources d'habillage, jamais le corps d'un article.
+CHEMINS_A_IGNORER = re.compile(
+    r"^/(cdn-cgi|_next/static|_nuxt|static|assets|dist|build|media|"
+    r"wp-content|wp-includes|wp-json)/", re.IGNORECASE)
 
 MOTIF_URL = re.compile(rb"https?://[^\s\"'<>\\\x00-\x1f]{12,}")
+MOTIF_ANCRE = re.compile(rb'data-n-au="([^"]+)"')
 
 
 # --------------------------------------------------------------- utilitaires
@@ -91,13 +115,27 @@ def texte(noeud, defaut=""):
 
 
 def url_plausible(candidat):
+    """Vrai si l'adresse peut etre celle d'un article de presse.
+
+    Le critere est volontairement severe : un lien faux est bien pire qu'un lien
+    non resolu, puisqu'il mene le lecteur ailleurs sans prevenir.
+    """
+    if not candidat or len(candidat) > 2000:
+        return False
     try:
         p = urlparse(candidat)
     except ValueError:
         return False
     if p.scheme not in ("http", "https") or not p.netloc:
         return False
-    if HOTES_A_IGNORER.search(p.netloc):
+    hote = p.netloc.split("@")[-1].split(":")[0]
+    if HOTES_A_IGNORER.search(hote) or "." not in hote:
+        return False
+    if len(p.path) < 2:                 # une page d'accueil n'est pas un article
+        return False
+    if EXTENSIONS_A_IGNORER.search(p.path):
+        return False
+    if CHEMINS_A_IGNORER.search(p.path):
         return False
     return True
 
@@ -161,20 +199,18 @@ def _par_decodage(lien):
 
 
 def _par_page(lien):
-    """Voie 2 : la page de redirection porte l'adresse reelle dans son HTML."""
+    """Voie 2 : la page de redirection porte l'adresse reelle dans son HTML.
+
+    Seul l'attribut que Google reserve a l'adresse d'origine est lu. Balayer tout
+    le HTML a la recherche de la premiere adresse venue ramene les scripts de
+    mesure d'audience et les ressources d'habillage : mieux vaut ne rien resoudre.
+    """
     try:
         html = recuperer(lien, ua=UA_PAGE, timeout=20)
     except (urllib.error.URLError, OSError):
         return None
 
-    # Google expose souvent l'adresse d'origine dans cet attribut.
-    m = re.search(rb'data-n-au="([^"]+)"', html)
-    if m:
-        candidat = m.group(1).decode("utf-8", "ignore")
-        if url_plausible(candidat):
-            return candidat
-
-    for trouve in MOTIF_URL.findall(html)[:60]:
+    for trouve in MOTIF_ANCRE.findall(html):
         candidat = trouve.decode("utf-8", "ignore")
         if url_plausible(candidat):
             return candidat
@@ -308,6 +344,25 @@ def main():
             titres_connus.add(
                 re.sub(r"[^a-z0-9]+", "", (it.get("title") or "").lower())[:90])
 
+    # --- reparation des resolutions erronees ---
+    # Une version precedente pouvait retenir l'adresse d'un script de mesure
+    # d'audience a la place de l'article. On rend a ces entrees leur lien Google
+    # et on les remet dans la file des liens a resoudre.
+    reparees = 0
+    for j in jours.values():
+        for it in j.get("items", []):
+            lien = it.get("url", "")
+            if not lien or "news.google.com" in lien:
+                continue
+            if url_plausible(lien):
+                continue
+            origine = it.get("gnews") or ""
+            if origine:
+                it["url"] = origine
+                it["gnews"] = ""
+            it["resolu"] = False
+            reparees += 1
+
     jour = jours.setdefault(aujourdhui, {"date": aujourdhui, "items": []})
     jour.setdefault("items", [])
     deja = {it.get("id") for it in jour["items"]}
@@ -382,8 +437,9 @@ def main():
                   f, ensure_ascii=False, indent=1)
 
     print("{} nouvelle(s) reference(s) au {} ; {} lien(s) resolu(s), "
-          "{} rattrape(s) ; {} references sur {} jours ; {} lien(s) encore opaque(s)"
-          .format(ajoutes, aujourdhui, resolus, rattrapes,
+          "{} rattrape(s), {} repare(s) ; {} references sur {} jours ; "
+          "{} lien(s) encore opaque(s)"
+          .format(ajoutes, aujourdhui, resolus, rattrapes, reparees,
                   total, len(liste), non_resolus))
 
 
