@@ -1,5 +1,5 @@
 {
- "genere": "2026-10-23T15:06:16+00:00",
+ "genere": "2026-10-24T08:11:04+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
@@ -14,7 +14,7 @@
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
    "etat": "ok",
    "bruts": 68,
-   "retenus": 2
+   "retenus": 1
   },
   {
    "cle": "federation",
@@ -26,6 +26,14 @@
  ],
  "total": 6,
  "items": [
+  {
+   "id": "ue532ad45",
+   "title": "Surgères : le Groupe d’entraide mutuelle ouvre ses portes pour aider à rompre l’isolement et créer du lien social",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMjRLb21oWHFXU2dxQVV2LXJObmw5cWZiaHFhdXQwbGQzVHE5MkJTNXVsQ3FTWnFlalNVaTlyeWZLTlBnMVRiQXRxbm9TdC0xNjNxZTRucXI3T0FfUVRMNDhaSXhadkZha3pMTk1uX0hnVTNra3VIdmczRURvUlg1bDlwNDQxWnRmQTB0c0VOZjczYVFPeEhQUmNvRjYwbHFGNE5DbFgwa2NvLUp6VHd4Zk55LWY1a19ub3VGT0xhU3RfaW8xdW5PVUlPUWstblRQX0Y5dC10aTJZSjRUQmJKa2ZCeFpQOXE3Q0Q2ZDBWZ2xMSVFmRmJuV1ZHZlRnc1h3U3JWVXRB?oc=5",
+   "source": "Sud Ouest",
+   "published": "2026-10-24",
+   "feed": "terme-exact"
+  },
   {
    "id": "u8ddac0a7",
    "title": "Lesparre-Médoc : le groupe d’entraide mutuelle Oxygem a fêté ses dix ans dans le partage",
@@ -64,14 +72,6 @@
    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONkk3c2c2WDJpMlFvc04tTUhrbG90WWZKMDhUNzBadE9hY0NWLVJmVWhvZVlxTkUyeUZsdm5qVlBaWlgzcEVwWmlBUzczVWR0Z2p3d2xWSmdIb1Y2Rmx6U25BZXV5dnpZMkE3Z3lmNkRWTktPcm0xeC1XTGFUZldSZ25nU1RTUFNWNE1Zdmhud3hWUTI0NEdSS2NrU2RoZ254OGt2NjdnVG1jUlgzaGVwUGxmRzhxc0dfVXN2enJESHI4TWpOaUE?oc=5",
    "source": "Le Progrès",
    "published": "2026-10-15",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "ue91bf7f5",
-   "title": "Journée Portes Ouvertes 2026 du GEM LE CAP DE BONNE ESPERANCE Groupe d’Entraide Mutuelle LE CAP DE BONNE ESPERANCE Paris",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPemFRNnp2aVdFbjlIUXlPMFlfZXVYUTBkUlV5S0FxWi1uSlI3d1NOb2pyV2ZaRmUxMnVBMVYwTzM0YmV1VHNyNzN0aUd1a0Y3VV9xblF3Ri1qMDRfZ1lObUNLNnZiVjd3QlptdFo5OWpBZ1NnTVBDZGh2MzNVbnk2V09uX0JvWTdFeWdPb3Y0Z2JkdERibkcxYVZJa1RVVXFDb3VyUHZYeWREZndsV2Q4MGxtdFFxdmEwMkl2TVBLU2REYkdrZWJ1bEt1WUN6Y0hYa09DTUk3eTk2Ny1HeWFaR1hYRzc4bFFmLVloemNBZmVWZFltVkdYREFFTTgtaENHN01iOHB3?oc=5",
-   "source": "Unidivers",
-   "published": "2026-10-14",
    "feed": "terme-exact"
   }
  ]

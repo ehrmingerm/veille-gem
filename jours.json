@@ -1,9 +1,44 @@
 {
- "maj": "2026-10-23T15:06:16+00:00",
- "jours_couverts": 1,
- "total": 6,
- "liens_non_resolus": 6,
+ "maj": "2026-10-24T08:11:04+00:00",
+ "jours_couverts": 2,
+ "total": 7,
+ "liens_non_resolus": 7,
  "jours": [
+  {
+   "date": "2026-10-24",
+   "items": [
+    {
+     "id": "ue532ad45",
+     "title": "Surgères : le Groupe d’entraide mutuelle ouvre ses portes pour aider à rompre l’isolement et créer du lien social",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMjRLb21oWHFXU2dxQVV2LXJObmw5cWZiaHFhdXQwbGQzVHE5MkJTNXVsQ3FTWnFlalNVaTlyeWZLTlBnMVRiQXRxbm9TdC0xNjNxZTRucXI3T0FfUVRMNDhaSXhadkZha3pMTk1uX0hnVTNra3VIdmczRURvUlg1bDlwNDQxWnRmQTB0c0VOZjczYVFPeEhQUmNvRjYwbHFGNE5DbFgwa2NvLUp6VHd4Zk55LWY1a19ub3VGT0xhU3RfaW8xdW5PVUlPUWstblRQX0Y5dC10aTJZSjRUQmJKa2ZCeFpQOXE3Q0Q2ZDBWZ2xMSVFmRmJuV1ZHZlRnc1h3U3JWVXRB?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Sud Ouest",
+     "published": "2026-10-24",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-10-24T08:11:04+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 5
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 1
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-10-23",
    "items": [
