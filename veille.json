@@ -1,53 +1,45 @@
 {
- "genere": "2026-10-27T10:01:08+00:00",
+ "genere": "2026-10-28T10:46:27+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\"",
    "etat": "ok",
-   "bruts": 100,
-   "retenus": 3
+   "bruts": 46,
+   "retenus": 2
   },
   {
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
    "etat": "ok",
-   "bruts": 34,
+   "bruts": 73,
    "retenus": 0
   },
   {
    "cle": "federation",
    "requete": "\"FIGEM\" OR \"CNIGEM\"",
    "etat": "ok",
-   "bruts": 9,
+   "bruts": 10,
    "retenus": 0
   }
  ],
- "total": 3,
+ "total": 2,
  "items": [
+  {
+   "id": "u809abe79",
+   "title": "Colmar. Groupe d’entraide mutuelle : une main tendue depuis 15 ans",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWEIydjREaGtDR1NDMGFxTnRGX0xDR2tEd3Q5S1o3OGxucHdqN1dRcnF1NmczaVR2RXVoSHlfRXh0a2hRa2FYbkE5NnEwUm1sQTh5OGREUHlLaWs5a2JhQlp3UkFMbWhWQTM2a2Fib3Rva29jTWFWWFJfdXlZOE5jTURVeE1jQWd1Q2xYM0pOdXlHMFF6TmQ1MVpB?oc=5",
+   "source": "DNA.fr",
+   "published": "2026-10-27",
+   "feed": "terme-exact"
+  },
   {
    "id": "ue532ad45",
    "title": "Surgères : le Groupe d’entraide mutuelle ouvre ses portes pour aider à rompre l’isolement et créer du lien social",
    "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMjRLb21oWHFXU2dxQVV2LXJObmw5cWZiaHFhdXQwbGQzVHE5MkJTNXVsQ3FTWnFlalNVaTlyeWZLTlBnMVRiQXRxbm9TdC0xNjNxZTRucXI3T0FfUVRMNDhaSXhadkZha3pMTk1uX0hnVTNra3VIdmczRURvUlg1bDlwNDQxWnRmQTB0c0VOZjczYVFPeEhQUmNvRjYwbHFGNE5DbFgwa2NvLUp6VHd4Zk55LWY1a19ub3VGT0xhU3RfaW8xdW5PVUlPUWstblRQX0Y5dC10aTJZSjRUQmJKa2ZCeFpQOXE3Q0Q2ZDBWZ2xMSVFmRmJuV1ZHZlRnc1h3U3JWVXRB?oc=5",
    "source": "Sud Ouest",
    "published": "2026-10-24",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u8ddac0a7",
-   "title": "Lesparre-Médoc : le groupe d’entraide mutuelle Oxygem a fêté ses dix ans dans le partage",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPLXRCOXR1S3A1QVQzbkY3X1ZDXzBqTU5IU0NoOGNFaEVaV1R3aU01UW5iaWdjUVJGSFFUOERfbFNrVnBiSC1aMUtIT28wcXlQX2NnTE1hR2VLeGxubXE3SzRZT2pmOGhWZ1ZGcUlUaVk1ZDBrSVhtUFNFczcyTUlfUm42M0d3Z1lkd25RaEpXMzIweHRkZ0kzaUxRT2RJdGNtSGZYTjZYNy1WeGdNSFFBdVdadDJiRE5qaWcyWHkzRjZKZ2IwUVlmMTJZQjFFcGk3ckJPX0pPbDQtM1VGNmdR?oc=5",
-   "source": "Sud Ouest",
-   "published": "2026-10-22",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u197cc557",
-   "title": "Pineuilh : le Groupe d’entraide mutuelle, une passerelle pour rompre l’isolement et retrouver une vie ordinaire",
-   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObzRaNDU5ODhfYjJjWnNTSjBGazhFXzVUbW5oTEFFVTZ5YVNXeWhPNlU4aDE3RnBiWms4T1hFbmRfT0xPaVVDR2tLNXJtZ2VTLU1qN25fc2xNM3ZFWnJuN0FJSTFkQWVfNUw4ZzJkOTZEMnh4Nkx5dGI4emxiY0xpNmZ2V0Q3TmlGRGVmZjlUbnluOWV2ckFnX0EyZk95c1NleHE4TENGalFxcW1COHZxbGdxTTlMZEF1a2lUcWxFUmZZZDI0VzltYksyZUYxLUtyZVllVWxTWm5qeWdTdDk1QTh5TjZSRm5Qd0dpRnZtUzluaWZf?oc=5",
-   "source": "Sud Ouest",
-   "published": "2026-10-19",
    "feed": "terme-exact"
   }
  ]

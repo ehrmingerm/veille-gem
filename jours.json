@@ -1,9 +1,44 @@
 {
- "maj": "2026-10-27T10:01:08+00:00",
- "jours_couverts": 4,
- "total": 7,
- "liens_non_resolus": 7,
+ "maj": "2026-10-28T10:46:27+00:00",
+ "jours_couverts": 5,
+ "total": 8,
+ "liens_non_resolus": 8,
  "jours": [
+  {
+   "date": "2026-10-28",
+   "items": [
+    {
+     "id": "u809abe79",
+     "title": "Colmar. Groupe d’entraide mutuelle : une main tendue depuis 15 ans",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWEIydjREaGtDR1NDMGFxTnRGX0xDR2tEd3Q5S1o3OGxucHdqN1dRcnF1NmczaVR2RXVoSHlfRXh0a2hRa2FYbkE5NnEwUm1sQTh5OGREUHlLaWs5a2JhQlp3UkFMbWhWQTM2a2Fib3Rva29jTWFWWFJfdXlZOE5jTURVeE1jQWd1Q2xYM0pOdXlHMFF6TmQ1MVpB?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "DNA.fr",
+     "published": "2026-10-27",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-10-28T10:46:27+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 2
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 0
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-10-27",
    "items": [],
