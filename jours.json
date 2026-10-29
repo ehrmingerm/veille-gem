@@ -1,9 +1,44 @@
 {
- "maj": "2026-10-28T10:46:27+00:00",
- "jours_couverts": 5,
- "total": 8,
- "liens_non_resolus": 8,
+ "maj": "2026-10-29T11:03:41+00:00",
+ "jours_couverts": 6,
+ "total": 9,
+ "liens_non_resolus": 9,
  "jours": [
+  {
+   "date": "2026-10-29",
+   "items": [
+    {
+     "id": "u96018ae1",
+     "title": "Saint-Etienne-lès-Remiremont – Bernard Moretti a célébré les 20 ans du Groupe d’Entraide Mutuelle avec humour",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVE8tcXRwQUtHeXVDU3NhVVA0T1kydUw5UlNtXzF5b29GYnB0RF9hR20yX1pNM2RKSWlqOW5fOUhYUnRrWVJFeWgtY3JEaVI5N2tkYkxNNUpXVlo4UUlEcFl5LTF3dWNPNHdKR1FRd1NJbGp6T1IyQmRuMi1JMDV5TE9oY0J2VGZqSUs3WnlWV3hLTDVfN2JXVmR1NDRrRmd0a2o3UzUwU19ZWkVGdGxhN0dlTXZuWHlZcGg0WFRGa0FRV1pvRUdzZENZOWJIMzMxN29ZMlA2cFhRX0dGMXNWeXlR?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Remiremont Vallées",
+     "published": "2026-10-29",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-10-29T11:03:41+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 2
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 0
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-10-28",
    "items": [
