@@ -1,30 +1,30 @@
 {
- "genere": "2026-10-29T11:03:41+00:00",
+ "genere": "2026-10-30T10:59:37+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\"",
    "etat": "ok",
-   "bruts": 47,
-   "retenus": 2
+   "bruts": 48,
+   "retenus": 3
   },
   {
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
    "etat": "ok",
-   "bruts": 36,
+   "bruts": 37,
    "retenus": 0
   },
   {
    "cle": "federation",
    "requete": "\"FIGEM\" OR \"CNIGEM\"",
    "etat": "ok",
-   "bruts": 9,
+   "bruts": 8,
    "retenus": 0
   }
  ],
- "total": 2,
+ "total": 3,
  "items": [
   {
    "id": "u96018ae1",
@@ -40,6 +40,14 @@
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWEIydjREaGtDR1NDMGFxTnRGX0xDR2tEd3Q5S1o3OGxucHdqN1dRcnF1NmczaVR2RXVoSHlfRXh0a2hRa2FYbkE5NnEwUm1sQTh5OGREUHlLaWs5a2JhQlp3UkFMbWhWQTM2a2Fib3Rva29jTWFWWFJfdXlZOE5jTURVeE1jQWd1Q2xYM0pOdXlHMFF6TmQ1MVpB?oc=5",
    "source": "DNA.fr",
    "published": "2026-10-27",
+   "feed": "terme-exact"
+  },
+  {
+   "id": "ue532ad45",
+   "title": "Surgères : le Groupe d’entraide mutuelle ouvre ses portes pour aider à rompre l’isolement et créer du lien social",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNMjRLb21oWHFXU2dxQVV2LXJObmw5cWZiaHFhdXQwbGQzVHE5MkJTNXVsQ3FTWnFlalNVaTlyeWZLTlBnMVRiQXRxbm9TdC0xNjNxZTRucXI3T0FfUVRMNDhaSXhadkZha3pMTk1uX0hnVTNra3VIdmczRURvUlg1bDlwNDQxWnRmQTB0c0VOZjczYVFPeEhQUmNvRjYwbHFGNE5DbFgwa2NvLUp6VHd4Zk55LWY1a19ub3VGT0xhU3RfaW8xdW5PVUlPUWstblRQX0Y5dC10aTJZSjRUQmJKa2ZCeFpQOXE3Q0Q2ZDBWZ2xMSVFmRmJuV1ZHZlRnc1h3U3JWVXRB?oc=5",
+   "source": "Sud Ouest",
+   "published": "2026-10-24",
    "feed": "terme-exact"
   }
  ]
