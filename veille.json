@@ -1,19 +1,19 @@
 {
- "genere": "2026-11-02T12:49:21+00:00",
+ "genere": "2026-11-03T12:17:39+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\"",
    "etat": "ok",
-   "bruts": 45,
+   "bruts": 100,
    "retenus": 1
   },
   {
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
    "etat": "ok",
-   "bruts": 71,
+   "bruts": 34,
    "retenus": 0
   },
   {
