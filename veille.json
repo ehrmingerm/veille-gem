@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-03T12:17:39+00:00",
+ "genere": "2026-11-04T12:28:17+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
@@ -13,7 +13,7 @@
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
    "etat": "ok",
-   "bruts": 34,
+   "bruts": 35,
    "retenus": 0
   },
   {
