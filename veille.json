@@ -1,12 +1,12 @@
 {
- "genere": "2026-11-10T12:55:51+00:00",
+ "genere": "2026-11-11T12:06:06+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\"",
    "etat": "ok",
-   "bruts": 46,
+   "bruts": 45,
    "retenus": 0
   },
   {

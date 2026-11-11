@@ -1,9 +1,31 @@
 {
- "maj": "2026-11-10T12:55:51+00:00",
- "jours_couverts": 14,
+ "maj": "2026-11-11T12:06:06+00:00",
+ "jours_couverts": 15,
  "total": 9,
  "liens_non_resolus": 9,
  "jours": [
+  {
+   "date": "2026-11-11",
+   "items": [],
+   "collecte": "2026-11-11T12:06:06+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 0
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 0
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-11-10",
    "items": [],
