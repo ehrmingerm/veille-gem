@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-11T12:06:06+00:00",
+ "genere": "2026-11-12T13:11:07+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
@@ -20,7 +20,7 @@
    "cle": "federation",
    "requete": "\"FIGEM\" OR \"CNIGEM\"",
    "etat": "ok",
-   "bruts": 9,
+   "bruts": 10,
    "retenus": 0
   }
  ],
