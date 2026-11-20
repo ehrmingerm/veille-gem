@@ -37,9 +37,10 @@ BASE = "https://news.google.com/rss/search?q={}&hl=fr&gl=FR&ceid=FR:fr"
 #
 # Trois lecons du diagnostic du 20 novembre 2026 (diagnostic.py) :
 #
-#   1. « when: » assechait tout. Sur « groupe d'entraide mutuelle », Google
-#      rend 55 articles sans cet operateur et 12 avec « when:14d ». Le tri par
-#      date est fait ici, par FENETRE_JOURS, qui est la pour cela.
+#   1. « when: » reste indispensable. Sans lui, Google rend beaucoup plus
+#      d'articles, mais ce sont des archives : 55 resultats dont le plus
+#      recent avait cinq jours, 46 dont le plus recent avait six semaines,
+#      et pour la federation, trois ans. L'operateur force la recence.
 #   2. Reunir deux formes par OR divise le resultat au lieu de l'additionner :
 #      la forme au singulier seule rendait 12 articles, les deux formes
 #      reunies par OR n'en rendaient que 7. Elles sont donc interrogees
@@ -49,16 +50,16 @@ BASE = "https://news.google.com/rss/search?q={}&hl=fr&gl=FR&ceid=FR:fr"
 #      sigle sont ecartes plus bas, par EXCLUSIONS, apres la collecte.
 REQUETES = [
     ("terme-exact",
-     '"groupe d\'entraide mutuelle"'),
+     '"groupe d\'entraide mutuelle" when:14d'),
     ("terme-exact-pluriel",
-     '"groupes d\'entraide mutuelle"'),
+     '"groupes d\'entraide mutuelle" when:14d'),
     ("sigle-qualifie",
-     'GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance")'),
+     'GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance") when:14d'),
     ("federation",
-     '"FIGEM" OR "CNIGEM"'),
+     '"FIGEM" OR "CNIGEM" when:30d'),
 ]
 
-FENETRE_JOURS = 10        # age maximal d'un element remonte par un flux
+FENETRE_JOURS = 14        # age maximal d'un element ; accorde a « when:14d »
 ARCHIVE_JOURS = 240       # profondeur conservee dans jours.json
 MAX_PAR_FLUX = 100
 RETENTATIVES_RESOLUTION = 12   # anciens liens non resolus retentes a chaque passage
