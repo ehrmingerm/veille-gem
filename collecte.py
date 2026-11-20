@@ -35,17 +35,18 @@ BASE = "https://news.google.com/rss/search?q={}&hl=fr&gl=FR&ceid=FR:fr"
 # Les trois requêtes de veille. Modifiez-les ici, le reste suit.
 REQUETES = [
     ("terme-exact",
-     '"groupe d\'entraide mutuelle" OR "groupes d\'entraide mutuelle"'),
+     '("groupe d\'entraide mutuelle" OR "groupes d\'entraide mutuelle") '
+     'when:14d'),
     ("sigle-qualifie",
-     'GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance") '
-     '-"Grenoble École de Management" -Gémenos -festival'),
+     '(GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance")) '
+     '-"Grenoble École de Management" -Gémenos -festival when:14d'),
     ("federation",
-     '"FIGEM" OR "CNIGEM"'),
+     '("FIGEM" OR "CNIGEM") when:14d'),
 ]
 
 FENETRE_JOURS = 10        # age maximal d'un element remonte par un flux
 ARCHIVE_JOURS = 240       # profondeur conservee dans jours.json
-MAX_PAR_FLUX = 40
+MAX_PAR_FLUX = 100
 RETENTATIVES_RESOLUTION = 12   # anciens liens non resolus retentes a chaque passage
 
 UA_FLUX = "veille-gem/3.0 (+github actions)"
@@ -304,17 +305,23 @@ def main():
             items, etat = [], "echec: {}".format(e)
             print("flux {} : {}".format(cle, etat), file=sys.stderr)
 
-        retenus = 0
+        retenus, hors_fenetre, exclus = 0, 0, 0
         for it in items[:MAX_PAR_FLUX]:
             if it["_ts"] and it["_ts"] < limite:
+                hors_fenetre += 1
                 continue
             if EXCLUSIONS.search(it["title"] + " " + it["source"]):
+                exclus += 1
                 continue
             collectes.append(it)
             retenus += 1
 
+        horodatages = [it["_ts"] for it in items if it["_ts"]]
         rapport.append({"cle": cle, "requete": requete, "etat": etat,
-                        "bruts": len(items), "retenus": retenus})
+                        "bruts": len(items), "retenus": retenus,
+                        "hors_fenetre": hors_fenetre, "exclus": exclus,
+                        "plus_recent": (max(horodatages).date().isoformat()
+                                        if horodatages else "")})
 
     vus_id, vus_titre, frais = set(), set(), []
     for it in sorted(collectes, key=lambda x: x["_ts"] or maintenant, reverse=True):
