@@ -1,27 +1,64 @@
 {
- "maj": "2026-11-20T11:06:50+00:00",
+ "maj": "2026-11-20T11:19:45+00:00",
  "jours_couverts": 22,
- "total": 9,
- "liens_non_resolus": 9,
+ "total": 12,
+ "liens_non_resolus": 12,
  "jours": [
   {
    "date": "2026-11-20",
-   "items": [],
-   "collecte": "2026-11-20T11:06:50+00:00",
+   "items": [
+    {
+     "id": "uedf538ac",
+     "title": "Solesmes. Une expo-vente solidaire qui cartonne",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUWVEX2F2NzRKWG5NVkFqR1dudGdkN0xhcnF5RWw4cFA2b2pxb3BCVV92ZVBITllyMXpQM0pNM1hzQzhWX193T2FxSG1CMXgyY2RWMUtXY3pnUndaSmFkQXo1TVFpT2toVDBBU3FZM0lhOTVLNW0wTXYzcGloVFN1eExMTEpGZDNON0VtVGVxM0thU1k0MmhWbnEyVVdtMGt1SEZWcEwtUVJYYm9OOU5kSnI5YVhwZ29oMWQ1WjktV0hfX3d1SnU5NDdaM3ZrWkcyTjZybDZNTFM4V0E?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Ouest-France",
+     "published": "2026-11-15",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "uaae4d719",
+     "title": "Ronchamp. Sculpture sur métal : une exposition qui réunit art et inclusion",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX3lJN2VhZ0VLc3Yta0YtNl9wQUJBdTMwMHQyWmVrbEppbzJhU0VhMmRxZFQxRll0NkUtRGd5dkxNZ2NYaWlxcmNfRnV6eTZCSEFLaUVTaGtZMFhVUGQyN3lYYXpRNGhJQVhlX1RkQ1EtQjZlNS1PYTc3c1lhT2tUdGhJMjU3UjYzaGxfUTNvTTltTkV6TDg2VllNbmFCOGhMTThMRGRWandyYnFxTFBCM18zcGxIbWRKMlNR?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "L'Est Républicain",
+     "published": "2026-11-14",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "ucdea486e",
+     "title": "Les Invités au Festin : cinq dispositifs repris par la Fondation Pluriel",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR21tay05MVVWb0JZcEhDSWd6UGtiTzNZcUUwZUNueWV5U3pLUFBsYkI1WUNUUmxNRUNnOVByVVNmMkQ5dnhmZkdraXdJWUpSclFEbUhvMF8tZFc5STlieUd4STcyX0JfV2VzbVlvaTBpMm1TNjI0bmMtbVZYbEtxUmdFNzNVLWlhaUowcFY5YnFNcjJBdWR5ZEl4azRTeGVpTlFPTW9Wc2hoWFZFaC12TjJGYmhleHRm?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Plein Air",
+     "published": "2026-11-14",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-11-20T11:19:45+00:00",
    "flux": [
     {
      "cle": "terme-exact",
-     "etat": "echec: HTTP Error 503: Service Unavailable",
-     "retenus": 0
+     "etat": "ok",
+     "retenus": 3
     },
     {
      "cle": "sigle-qualifie",
-     "etat": "echec: HTTP Error 503: Service Unavailable",
+     "etat": "ok",
      "retenus": 0
     },
     {
      "cle": "federation",
-     "etat": "echec: HTTP Error 503: Service Unavailable",
+     "etat": "ok",
      "retenus": 0
     }
    ]
