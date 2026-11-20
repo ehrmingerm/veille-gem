@@ -1,8 +1,8 @@
 {
- "maj": "2026-11-20T11:19:45+00:00",
+ "maj": "2026-11-20T11:25:42+00:00",
  "jours_couverts": 22,
- "total": 12,
- "liens_non_resolus": 12,
+ "total": 19,
+ "liens_non_resolus": 19,
  "jours": [
   {
    "date": "2026-11-20",
@@ -241,7 +241,60 @@
   },
   {
    "date": "2026-11-09",
-   "items": [],
+   "items": [
+    {
+     "id": "uae6729f2",
+     "title": "La Fondation Pluriel reprend cinq dispositifs des Invités au Festin dans le Doubs",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUTMtbE5WbER4VmhlVURDM25jWGsyU3Nqano1TkpKYy1qZjZlMWt3c2tPem5iMTdJSi1OV0cteFhVa1F4WG5hRDVqcXBsSGFRc3dnVnNsUmdudDNpQ3FtbW5fT0RiaXJvR0dfYlU0WmJReno0NDBrWGl1X0F3WjhsZ0NGcWJEYjNya1hXOUR6bXZ3R2U2S3BzWkRYb1Z3SEVTNEU4c3ppcEVMcC10V0E?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "maCommune.info",
+     "published": "2026-11-07",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    },
+    {
+     "id": "u3f3343fb",
+     "title": "« Chanter ensemble, tout simplement » : Michel Sardou, Johnny Hallyday, Françoise Hardy… Le karaoké rassemble",
+     "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPYk9nMUs1aHVxYllBRkVhME5BUlBycndpY3c5LThZRnZTcDhuQTg0WmN6RkVjQkZ6STVlWkpOSEJnQ1hQdjNKMWdLM3pXN3NNTk5WS3pVMVpTUXB3Z3FpR01qRG5HNWlEX2E1eDVFS3YtanN2NEQyd2hKeElHRkNiVEpISEYxTUp1UmNaOWNLMGtFZURwRl92MXN2WG4xNENqZk8xcWZhUlhkeHdScDBzcHpycWYyaTV6WUstejNSVmE2dDYtVENLYm5rdTJBNVRkd3VwRk1qT3F5NnhFR0RkMVpxOFNvZEhqSEJnRWxRb1p0S1VFS0FaTFdoLVlIcDh3aFU5a2x0X3JQVDdRb3JsNFNQTWxfbHJ4bVJMdXBJNkVLVlRyc1dGWnIzYTY?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Ouest-France",
+     "published": "2026-11-08",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    },
+    {
+     "id": "uf9871710",
+     "title": "Reprise des Invités au festin : d’abord inquiets puis rassurés, qu’en pensent les bénéficiaires ?",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVG5XNEdlc3hVX2dhT2dONDVuMUFuY0dySXc1T0tXemJFN0VYLWxsTkJ4bVFURkhSTzJTdUZfMklEMEJ5RW5LSVZ3TUlVUDkxYk9ZODNVY2lsU3lkeEVxVy0xNWFmMkFvQ2lSWnZDSjY2VEk1dWFvWUNHLVlyTzA0cHJ4Yng3QjA0cGtHTW1CdDZpc3JURElYbDh4MzlnZk1vSG5LZHJXVzRTeVNaNWZZZ3VUM1BCVHJBME1XbWJEdnp3OEF0SXN1YWZIMXhRUGVhcWk3U09XZjU?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "L'Est Républicain",
+     "published": "2026-11-09",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    },
+    {
+     "id": "ua16e1ad9",
+     "title": "Plouguenast-Langast : jeunes de la MFR et membres du GEM réunis autour du four à pain au Vieux-Bourg",
+     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPeUVlRWVBQWhMREMzenZLRUNnMTg4LU1ZVjd5RnFERS0yYmIxeDR6RTlLSC0zVHRJTVFTNk1VSk5qcXBRcVBpUXdMdG9Tb0NEaVdhNGM0Y2otcnkwa0EtLUpLczdJYVUxMEc3bFRVMkhubndUdVl1TEtmME9PNU1wSklqY3NjN2ljT2lmeUVpeU14RXNoMV9BT1lRLXJ1Mk1sc2hvQlp2c0YyTVlCSGxPcXd0QzdrT0N5YlpIeUJpNGZjWnV5am5wTTdWYTg4UjV6b3V6WWlyU0VmMlJIUmRVZjdnWGJnQ1BjUHphVGxtWjVuVFgySWM1QkFwci14VnM1NEJWcC0xM1hzZw?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Le Télégramme",
+     "published": "2026-11-09",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    }
+   ],
    "collecte": "2026-11-09T13:17:26+00:00",
    "flux": [
     {
@@ -259,7 +312,8 @@
      "etat": "ok",
      "retenus": 0
     }
-   ]
+   ],
+   "rattrapage": "2026-11-20T11:25:42+00:00"
   },
   {
    "date": "2026-11-06",
@@ -285,7 +339,21 @@
   },
   {
    "date": "2026-11-05",
-   "items": [],
+   "items": [
+    {
+     "id": "u1047ccd2",
+     "title": "Lavelanet. Le GEM Terre Cathare crée du lien avec les Olympiades",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTnVYYVNMZmpNR0VJNXdVcGdFNmZ4ekwzTzBNM2Z5OEtfb0JMOEVReUxHdTBSVUJUMTlUUnZxVWxJSzhPV3FHb1k4NVp3Z3IzLXpOdUdDMlJvRlRJM2hTaUZRZXdnd3NockVCVDVmMkJXQnBId2NTYUFFSDdRS2Y0OW5ITEUxa21wbnNYLWtNaVQxalJ3UGU3YkNFeGVlOWtVcHpfYQ?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "ladepeche.fr",
+     "published": "2026-11-05",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    }
+   ],
    "collecte": "2026-11-05T12:42:14+00:00",
    "flux": [
     {
@@ -303,7 +371,8 @@
      "etat": "ok",
      "retenus": 0
     }
-   ]
+   ],
+   "rattrapage": "2026-11-20T11:25:42+00:00"
   },
   {
    "date": "2026-11-04",
@@ -329,7 +398,21 @@
   },
   {
    "date": "2026-11-03",
-   "items": [],
+   "items": [
+    {
+     "id": "u192de624",
+     "title": "« C’est une première » : ces structures d’accueil de Sablé-sur-Sarthe ont proposé une animation autour d’un karaoké",
+     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOUWgyR2E1UHRjNHI1TmExalZMUkhRRVozZlR2aWc5WmZvV0xhN3oyc01pMC1Vb2x1ei02eXJVazA3b1VRZkRmR3BMWGUweGlKbktwUmNfaXI2bXY1N1ZOSWF1dUFQTFFwLVBveFZoOG4xM2lnYjIxWUdzRjRvTV9ZZUdaMDI0OXgtSVFxNmVKNUxsTWdkLUxybEcyNVlxX1hTQ1BKRlZvZGIzVVY0OVV4eFlhU3FISEVVMEtSTVAxQ1hta2s2ejl6UzNyeGxEdFNpZENUdk03Z0ZhOHhRSER4REwxRlFvVDVmeTJyamhOZTg2Qm1ibWk1d2twRm5tYjJ1NDU0TFJCN0VaMFVOQlp1QjZvamRZZw?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Ouest-France",
+     "published": "2026-11-03",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    }
+   ],
    "collecte": "2026-11-03T12:17:39+00:00",
    "flux": [
     {
@@ -347,11 +430,26 @@
      "etat": "ok",
      "retenus": 0
     }
-   ]
+   ],
+   "rattrapage": "2026-11-20T11:25:42+00:00"
   },
   {
    "date": "2026-11-02",
-   "items": [],
+   "items": [
+    {
+     "id": "uc72c6936",
+     "title": "Treize auteurs signent une BD et une exposition inédites",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbUNpZ3Z5QWhfcHRqQVpNZ1I5MHV5S3cxV1paZndZVzdEWTE5UEptd0dFSmtFZl9HcXVubzNNTlhPM0U2MGRmX1VxMmVLc1EtMFQ1RnRqcDVpSm0weDlyd2FlZXZZbzB4NDhpS25za1VDakxRUFVoeGl5bF91a3NWZUR3UllmWTY5QUFqZUo0SjdkcnprX0ZhTDFCajhKUko2MU4yX0p4YVM?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "PetitBleu.fr",
+     "published": "2026-11-02",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": "",
+     "rattrapage": "2026-11-20"
+    }
+   ],
    "collecte": "2026-11-02T12:49:21+00:00",
    "flux": [
     {
@@ -369,7 +467,8 @@
      "etat": "ok",
      "retenus": 0
     }
-   ]
+   ],
+   "rattrapage": "2026-11-20T11:25:42+00:00"
   },
   {
    "date": "2026-10-30",
