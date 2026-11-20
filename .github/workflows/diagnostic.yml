@@ -1,0 +1,17 @@
+name: diagnostic-requetes
+
+# Lance a la main seulement. N'ecrit aucun fichier : affiche un tableau
+# dans le journal, pour comprendre pourquoi une requete ne rapporte rien.
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Essayer les variantes de requete
+        run: python diagnostic.py
