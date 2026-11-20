@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-20T11:52:04+00:00",
+ "genere": "2026-11-20T11:53:56+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
@@ -26,11 +26,11 @@
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\")",
    "etat": "ok",
-   "bruts": 36,
+   "bruts": 89,
    "retenus": 0,
-   "hors_fenetre": 36,
+   "hors_fenetre": 89,
    "exclus": 0,
-   "plus_recent": "2026-10-11"
+   "plus_recent": "2026-10-16"
   },
   {
    "cle": "federation",
