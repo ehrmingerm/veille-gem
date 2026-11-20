@@ -1,9 +1,31 @@
 {
- "maj": "2026-11-19T13:49:24+00:00",
- "jours_couverts": 21,
+ "maj": "2026-11-20T11:06:50+00:00",
+ "jours_couverts": 22,
  "total": 9,
  "liens_non_resolus": 9,
  "jours": [
+  {
+   "date": "2026-11-20",
+   "items": [],
+   "collecte": "2026-11-20T11:06:50+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "echec: HTTP Error 503: Service Unavailable",
+     "retenus": 0
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "echec: HTTP Error 503: Service Unavailable",
+     "retenus": 0
+    },
+    {
+     "cle": "federation",
+     "etat": "echec: HTTP Error 503: Service Unavailable",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-11-19",
    "items": [],
