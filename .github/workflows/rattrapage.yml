@@ -1,0 +1,51 @@
+name: rattrapage
+
+# Lancement manuel uniquement : relance les requetes sur une periode passee
+# et complete jours.json. Voir rattrapage.py.
+on:
+  workflow_dispatch:
+    inputs:
+      premier:
+        description: "Premier jour de collecte a rattraper (AAAA-MM-JJ)"
+        required: true
+      dernier:
+        description: "Dernier jour de collecte a rattraper (AAAA-MM-JJ)"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-gem
+  cancel-in-progress: false
+
+jobs:
+  rattrapage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rattraper la periode
+        env:
+          PREMIER: ${{ inputs.premier }}
+          DERNIER: ${{ inputs.dernier }}
+        run: python rattrapage.py "$PREMIER" "$DERNIER"
+
+      - name: Publier le resultat
+        env:
+          PREMIER: ${{ inputs.premier }}
+          DERNIER: ${{ inputs.dernier }}
+        run: |
+          git config user.name  "veille-gem"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jours.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "rattrapage $PREMIER au $DERNIER"
+            git push
+          fi
