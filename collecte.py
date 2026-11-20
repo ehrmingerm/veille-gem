@@ -23,6 +23,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timedelta, timezone
@@ -48,6 +49,8 @@ FENETRE_JOURS = 10        # age maximal d'un element remonte par un flux
 ARCHIVE_JOURS = 240       # profondeur conservee dans jours.json
 MAX_PAR_FLUX = 100
 RETENTATIVES_RESOLUTION = 12   # anciens liens non resolus retentes a chaque passage
+RETENTATIVES_FLUX = 4          # essais par flux quand Google repond 503 ou 429
+ATTENTE_FLUX = (5, 20, 60)     # secondes d'attente entre deux essais
 
 UA_FLUX = "veille-gem/3.0 (+github actions)"
 UA_PAGE = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -109,6 +112,32 @@ def recuperer(url, ua=UA_FLUX, timeout=30):
     req = urllib.request.Request(url, headers={"User-Agent": ua})
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read()
+
+
+def recuperer_flux(url):
+    """Comme recuperer(), mais retente quand Google repond 503, 429 ou 5xx.
+
+    Les adresses des runners GitHub sont partagees entre de nombreux projets et
+    Google y applique des quotas : un 503 y est le plus souvent passager. Sans
+    nouvelle tentative, la collecte du jour est perdue alors que le flux repond
+    correctement une minute plus tard.
+    """
+    dernier = None
+    for essai in range(RETENTATIVES_FLUX):
+        try:
+            return recuperer(url)
+        except urllib.error.HTTPError as e:
+            dernier = e
+            if e.code not in (408, 429, 500, 502, 503, 504):
+                raise
+        except (urllib.error.URLError, OSError) as e:
+            dernier = e
+        if essai < len(ATTENTE_FLUX):
+            attente = ATTENTE_FLUX[essai]
+            print("flux indisponible ({}), nouvel essai dans {} s"
+                  .format(dernier, attente), file=sys.stderr)
+            time.sleep(attente)
+    raise dernier
 
 
 def texte(noeud, defaut=""):
@@ -299,7 +328,7 @@ def main():
     for cle, requete in REQUETES:
         url = BASE.format(quote(requete, safe=""))
         try:
-            items = parser_flux(recuperer(url), cle)
+            items = parser_flux(recuperer_flux(url), cle)
             etat = "ok"
         except (urllib.error.URLError, ElementTree.ParseError, OSError) as e:
             items, etat = [], "echec: {}".format(e)
@@ -322,6 +351,14 @@ def main():
                         "hors_fenetre": hors_fenetre, "exclus": exclus,
                         "plus_recent": (max(horodatages).date().isoformat()
                                         if horodatages else "")})
+
+    if rapport and all(r["etat"] != "ok" for r in rapport):
+        print("tous les flux ont echoue : aucun fichier n'est reecrit, "
+              "la derniere collecte reussie est conservee telle quelle",
+              file=sys.stderr)
+        for r in rapport:
+            print("  {} : {}".format(r["cle"], r["etat"]), file=sys.stderr)
+        return 2
 
     vus_id, vus_titre, frais = set(), set(), []
     for it in sorted(collectes, key=lambda x: x["_ts"] or maintenant, reverse=True):
@@ -451,4 +488,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
