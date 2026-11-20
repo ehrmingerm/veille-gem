@@ -1,29 +1,43 @@
-{
- "genere": "2026-11-19T13:49:24+00:00",
- "fenetre_jours": 10,
- "flux": [
-  {
-   "cle": "terme-exact",
-   "requete": "\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\"",
-   "etat": "ok",
-   "bruts": 47,
-   "retenus": 0
-  },
-  {
-   "cle": "sigle-qualifie",
-   "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival",
-   "etat": "ok",
-   "bruts": 34,
-   "retenus": 0
-  },
-  {
-   "cle": "federation",
-   "requete": "\"FIGEM\" OR \"CNIGEM\"",
-   "etat": "ok",
-   "bruts": 10,
-   "retenus": 0
-  }
- ],
- "total": 0,
- "items": []
-}
+name: veille-gem
+
+on:
+  schedule:
+    # Les runs planifies gratuits sont mis en file d'attente : le creneau de
+    # 04:40 UTC partait en pratique vers 12h-13h50 UTC, donc APRES la lecture
+    # matinale. On tire deux fois, la veille au soir et tot le matin, pour que
+    # le fichier soit a jour quand l'automatisation le lit vers 05:50 UTC.
+    - cron: '10 20 * * 0-4'
+    - cron: '10 3 * * 1-5'
+  workflow_dispatch:        # permet de lancer la collecte a la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: veille-gem
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Collecter les flux
+        run: python collecte.py
+
+      - name: Publier le resultat
+        run: |
+          git config user.name  "veille-gem"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add veille.json jours.json
+          if git diff --staged --quiet; then
+            echo "Aucun changement."
+          else
+            git commit -m "veille $(date -u +%F)"
+            git push
+          fi
