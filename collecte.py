@@ -38,8 +38,11 @@ REQUETES = [
     ("terme-exact",
      '("groupe d\'entraide mutuelle" OR "groupes d\'entraide mutuelle") '
      'when:14d'),
+    # Pas de parenthese autour de l'ensemble : une requete qui commence par
+    # une double parenthese ouvrante fait rendre une liste vide a Google.
+    # Mesure le 24 octobre 2026, confirme le 20 novembre.
     ("sigle-qualifie",
-     '(GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance")) '
+     'GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance") '
      '-"Grenoble École de Management" -Gémenos -festival when:14d'),
     ("federation",
      '("FIGEM" OR "CNIGEM") when:14d'),
