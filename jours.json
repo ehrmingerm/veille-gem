@@ -1,8 +1,8 @@
 {
- "maj": "2026-11-20T11:53:56+00:00",
+ "maj": "2026-11-20T11:54:49+00:00",
  "jours_couverts": 22,
- "total": 20,
- "liens_non_resolus": 20,
+ "total": 25,
+ "liens_non_resolus": 25,
  "jours": [
   {
    "date": "2026-11-20",
@@ -54,24 +54,84 @@
      "feed": "terme-exact",
      "summary": "",
      "statut": ""
+    },
+    {
+     "id": "u492673b",
+     "title": "Lons-le-Saunier. Autisme : avec la “pair-aidance”, ils s’entraident en fonction de leur vécu et de leur expérience",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOazg2bThFbnFxUFh5YUU4U29LMEtBTEhwcnhRTmdrQ25iTzNGNUhjVFA5Z2tDMnN0aEFiYWhGMWRZU1FlYVBpLWFOUFV0V2hVRFZLR2dTRWJ4UC0yUmRwaUx2S3FfdFlQSDRKMHdBdmtUOWY4S3dJaFhrZlFINFlLU2t0dzJ5MEt6YWxGblJlT2hVV2N6RFhjcGlaaXFrb1pvVjR2M2JHRFNPSWJDemJPamRVUDdRRnRFNWg3SUFGb3Z2WktPQmRUbTBDZHNmdzA?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Le Progrès",
+     "published": "2026-11-11",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "ue4235afe",
+     "title": "Barentin. Privée d'une carte Pokémon en raison de son handicap : Cultura le reconnaît et \"regrette sincèrement\"",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQXh4cHNCcWFpeU01eGJVSGdhUkxpRldKQVFpMGs2ajY1U2hBTG91RHphTGI1MEpqcUkzaG9lRXIwZVM5U3B1c2NPOGdKTUIwV3ZMUngyV0xIaFpDVkY1UWljeDBwendzdWU0UWhHRXduQ0hlazFqcW5mYmx0ODdJUEdfS0RmVTBkVEJxU1RmNGZIMThIWEh5QXo4bVhKbVBEUWJlbi04a0kzV2d1LXNJTmhuTUlCTzhOdExUQTViNFBDblQta3ZMQlVHOFI1aHd2UjhMY3p2MUg2R3NFQVlqQVEzQnFHZ25ySzViWDhB?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "lecourriercauchois.fr",
+     "published": "2026-11-11",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u628a51f2",
+     "title": "Un intercesseur pour les personnes psychiquement fragiles",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMU5jRnNneUgycWc5d0d2T2RVbnM3d0pwMURvb2JXd3kwSWZCSTFqZHR5Tmh6dUhCN2kwSGJsRkhza3Zpdk02OUYwb3RuWllQV3ZNRl9Rd0VxZFE0MnBJYWtWX05PTC1YODBxWTc0Y1RVb2ttcUhIZkN5SGM2VFhrdVFKMFpZdFBBaHVJeGlMdk9fSlZBOW9F?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Aleteia",
+     "published": "2026-11-10",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u5bfdc10e",
+     "title": "Albertville. Tout savoir sur le GEM Renaissance, cet antidote chaleureux à l’isolement",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUE4zQnU5bzJXTVVDOVJJTGdGVndQblVmaHlteGhQNGh0c1U3QWlvQUdaR1BaXzloYUhtU1hJWVNSRWtpcE1SVFN4VDZMRWhYa3N4V0hoWm1ycEd2bjRpZy1SWFF3MHFncHN5OUZ0T1hiM1pVMzB4Qkl4LWNDMHUtdm1ab3ZEWVlLUlVDcjFOcVl2RFJZaHNzbUhjSEROeUxySWV0Y2Rxc2p1bDRzay1rbFh2a1dRZlZ3?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Le Dauphiné Libéré",
+     "published": "2026-11-09",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "uae325c87",
+     "title": "« Dans la continuité », la Fondation Pluriel reprend l’ensemble des activités des Invités au festin",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeDIweE1DSk85SklVQjdWNWYwNERaUlhMbVBfOWl0dlNQR0tnVmJSN1MwUF9Ua2luWlo0RzBUcVRDWWFNOUU3eThnUDBpQXU0azIwLUxWMVVwc041TUN1cmotQlVSakxwQjJUYlNfS1o3WHk2aWZHZVJhWmhWMkpKX0IwUloxS3h6MVY2R1JRODJyckxxZk12M3JvazdZTXIwM3NDc1lRLXJVV25HU1R4U1oxdFRkby14ZlFvaFEzREJ6b2RWSldIWC1mMFRlWS04SjhIZ3B6NWRfWm8?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "L'Est Républicain",
+     "published": "2026-11-09",
+     "feed": "terme-exact-pluriel",
+     "summary": "",
+     "statut": ""
     }
    ],
-   "collecte": "2026-11-20T11:53:56+00:00",
+   "collecte": "2026-11-20T11:54:49+00:00",
    "flux": [
     {
      "cle": "terme-exact",
      "etat": "ok",
-     "retenus": 1
+     "retenus": 12
     },
     {
      "cle": "terme-exact-pluriel",
      "etat": "ok",
-     "retenus": 0
+     "retenus": 4
     },
     {
      "cle": "sigle-qualifie",
      "etat": "ok",
-     "retenus": 0
+     "retenus": 2
     },
     {
      "cle": "federation",
