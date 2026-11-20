@@ -421,6 +421,41 @@ def main():
             it["resolu"] = False
             reparees += 1
 
+    def jour_de(parution):
+        """Rend la journee d'archive ou ranger une reference.
+
+        Une reference est rangee a sa date de parution, pour que la page
+        montre ce qui a paru chaque jour et non ce que la collecte a vu.
+        Faute de date de parution, elle est rangee au jour de la collecte.
+        Une date hors de l'archive est ramenee au plancher, pour qu'aucune
+        reference ne disparaisse.
+        """
+        if not parution:
+            return aujourdhui
+        if parution > aujourdhui:
+            return aujourdhui
+        if parution < plancher:
+            return plancher
+        return parution
+
+    plancher = (maintenant - timedelta(days=ARCHIVE_JOURS)).date().isoformat()
+
+    # --- remise en ordre de l'archive existante ---
+    # Les references ajoutees avant ce changement sont rangees au jour ou
+    # elles ont ete vues. On les replace a leur date de parution.
+    deplacees = 0
+    for date_jour in list(jours):
+        restants = []
+        for it in jours[date_jour].get("items", []):
+            cible = jour_de(it.get("published", ""))
+            if cible == date_jour:
+                restants.append(it)
+                continue
+            destination = jours.setdefault(cible, {"date": cible, "items": []})
+            destination.setdefault("items", []).append(it)
+            deplacees += 1
+        jours[date_jour]["items"] = restants
+
     jour = jours.setdefault(aujourdhui, {"date": aujourdhui, "items": []})
     jour.setdefault("items", [])
     deja = {it.get("id") for it in jour["items"]}
@@ -437,7 +472,10 @@ def main():
         if ok and url_finale != it["url"]:
             resolus += 1
 
-        jour["items"].append({
+        accueil = jours.setdefault(jour_de(it["published"]),
+                                   {"date": jour_de(it["published"]), "items": []})
+        accueil.setdefault("items", [])
+        accueil["items"].append({
             "id": it["id"],
             "title": it["title"],
             "url": url_finale,
@@ -480,7 +518,6 @@ def main():
     jour["flux"] = [{"cle": r["cle"], "etat": r["etat"], "retenus": r["retenus"]}
                     for r in rapport]
 
-    plancher = (maintenant - timedelta(days=ARCHIVE_JOURS)).date().isoformat()
     liste = [j for d, j in jours.items() if d >= plancher]
     liste.sort(key=lambda j: j["date"], reverse=True)
 
@@ -494,10 +531,10 @@ def main():
                    "liens_non_resolus": non_resolus, "jours": liste},
                   f, ensure_ascii=False, indent=1)
 
-    print("{} nouvelle(s) reference(s) au {} ; {} lien(s) resolu(s), "
-          "{} rattrape(s), {} repare(s) ; {} references sur {} jours ; "
-          "{} lien(s) encore opaque(s)"
-          .format(ajoutes, aujourdhui, resolus, rattrapes, reparees,
+    print("{} nouvelle(s) reference(s) ; {} rangee(s) a leur date de parution ; "
+          "{} lien(s) resolu(s), {} rattrape(s), {} repare(s) ; "
+          "{} references sur {} jours ; {} lien(s) encore opaque(s)"
+          .format(ajoutes, deplacees, resolus, rattrapes, reparees,
                   total, len(liste), non_resolus))
 
 
