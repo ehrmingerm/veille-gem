@@ -247,7 +247,7 @@ a { color: inherit; }
 
 <footer class="foot gut">
   <div class="inner">
-    <p>Collecte automatique chaque matin en semaine, à partir de trois requêtes Google Actualités. Une journée sans référence signifie qu'aucun résultat nouveau n'a été trouvé, pas que la veille ne s'est pas exécutée.</p>
+    <p>Collecte automatique chaque matin, à partir de quatre requêtes Google Actualités. Chaque article est rangé à sa date de parution, et non à la date où la collecte l'a trouvé : un article repéré tardivement va se placer au jour où il est paru. Seules les journées ayant vu paraître quelque chose sont affichées.</p>
     <p>Le sigle GEM est partagé avec la commune de Gémenos, l'école Grenoble École de Management et plusieurs festivals. Les faux positifs connus sont écartés à la collecte ; les autres se marquent à la lecture.</p>
     <p>Un marquage posé ici reste dans votre navigateur : il ne suit pas d'un appareil à l'autre et vos collègues ne le voient pas. Le tri partagé, lui, est inscrit dans le fichier de la veille.</p>
     <p>Les liens passent par une redirection Google Actualités.</p>
@@ -451,7 +451,7 @@ a { color: inherit; }
     var shown = 0;
     state.jours.forEach(function (jour) {
       var items = visible(jour);
-      if (!items.length && (state.query || state.filter !== "tout")) return;
+      if (!items.length) return;   // rien n'a paru ce jour-la : on ne l'affiche pas
       shown++;
 
       var sec = el("section", "day");
@@ -462,8 +462,7 @@ a { color: inherit; }
       sec.appendChild(rail);
 
       var list = el("div", "items");
-      if (!items.length) list.appendChild(el("p", "quiet", "Aucun résultat nouveau ce jour-là."));
-      else items.forEach(function (it) { list.appendChild(renderItem(it)); });
+      items.forEach(function (it) { list.appendChild(renderItem(it)); });
       sec.appendChild(list);
       inner.appendChild(sec);
     });
