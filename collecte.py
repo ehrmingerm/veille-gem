@@ -34,18 +34,28 @@ from xml.etree import ElementTree
 BASE = "https://news.google.com/rss/search?q={}&hl=fr&gl=FR&ceid=FR:fr"
 
 # Les trois requêtes de veille. Modifiez-les ici, le reste suit.
+#
+# Trois lecons du diagnostic du 20 novembre 2026 (diagnostic.py) :
+#
+#   1. « when: » assechait tout. Sur « groupe d'entraide mutuelle », Google
+#      rend 55 articles sans cet operateur et 12 avec « when:14d ». Le tri par
+#      date est fait ici, par FENETRE_JOURS, qui est la pour cela.
+#   2. Reunir deux formes par OR divise le resultat au lieu de l'additionner :
+#      la forme au singulier seule rendait 12 articles, les deux formes
+#      reunies par OR n'en rendaient que 7. Elles sont donc interrogees
+#      separement, et la deduplication fait le reste.
+#   3. Les exclusions cote Google videnent la requete : « GEM (...) » rendait
+#      11 articles seul et 0 avec les trois termes exclus. Les faux amis du
+#      sigle sont ecartes plus bas, par EXCLUSIONS, apres la collecte.
 REQUETES = [
     ("terme-exact",
-     '("groupe d\'entraide mutuelle" OR "groupes d\'entraide mutuelle") '
-     'when:14d'),
-    # Pas de parenthese autour de l'ensemble : une requete qui commence par
-    # une double parenthese ouvrante fait rendre une liste vide a Google.
-    # Mesure le 24 octobre 2026, confirme le 20 novembre.
+     '"groupe d\'entraide mutuelle"'),
+    ("terme-exact-pluriel",
+     '"groupes d\'entraide mutuelle"'),
     ("sigle-qualifie",
-     'GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance") '
-     '-"Grenoble École de Management" -Gémenos -festival when:14d'),
+     'GEM ("santé mentale" OR "handicap psychique" OR "pair-aidance")'),
     ("federation",
-     '("FIGEM" OR "CNIGEM") when:14d'),
+     '"FIGEM" OR "CNIGEM"'),
 ]
 
 FENETRE_JOURS = 10        # age maximal d'un element remonte par un flux
