@@ -1,62 +1,56 @@
 {
- "genere": "2026-11-20T11:43:04+00:00",
+ "genere": "2026-11-20T11:52:04+00:00",
  "fenetre_jours": 10,
  "flux": [
   {
    "cle": "terme-exact",
-   "requete": "(\"groupe d'entraide mutuelle\" OR \"groupes d'entraide mutuelle\") when:14d",
+   "requete": "\"groupe d'entraide mutuelle\"",
    "etat": "ok",
-   "bruts": 7,
-   "retenus": 3,
-   "hors_fenetre": 4,
+   "bruts": 55,
+   "retenus": 1,
+   "hors_fenetre": 54,
    "exclus": 0,
    "plus_recent": "2026-11-15"
   },
   {
-   "cle": "sigle-qualifie",
-   "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") -\"Grenoble École de Management\" -Gémenos -festival when:14d",
+   "cle": "terme-exact-pluriel",
+   "requete": "\"groupes d'entraide mutuelle\"",
    "etat": "ok",
-   "bruts": 0,
+   "bruts": 46,
    "retenus": 0,
-   "hors_fenetre": 0,
+   "hors_fenetre": 46,
    "exclus": 0,
-   "plus_recent": ""
+   "plus_recent": "2026-10-09"
+  },
+  {
+   "cle": "sigle-qualifie",
+   "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\")",
+   "etat": "ok",
+   "bruts": 36,
+   "retenus": 0,
+   "hors_fenetre": 36,
+   "exclus": 0,
+   "plus_recent": "2026-10-11"
   },
   {
    "cle": "federation",
-   "requete": "(\"FIGEM\" OR \"CNIGEM\") when:14d",
+   "requete": "\"FIGEM\" OR \"CNIGEM\"",
    "etat": "ok",
-   "bruts": 0,
+   "bruts": 10,
    "retenus": 0,
-   "hors_fenetre": 0,
+   "hors_fenetre": 10,
    "exclus": 0,
-   "plus_recent": ""
+   "plus_recent": "2023-02-09"
   }
  ],
- "total": 3,
+ "total": 1,
  "items": [
   {
-   "id": "uedf538ac",
-   "title": "Solesmes. Une expo-vente solidaire qui cartonne",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUWVEX2F2NzRKWG5NVkFqR1dudGdkN0xhcnF5RWw4cFA2b2pxb3BCVV92ZVBITllyMXpQM0pNM1hzQzhWX193T2FxSG1CMXgyY2RWMUtXY3pnUndaSmFkQXo1TVFpT2toVDBBU3FZM0lhOTVLNW0wTXYzcGloVFN1eExMTEpGZDNON0VtVGVxM0thU1k0MmhWbnEyVVdtMGt1SEZWcEwtUVJYYm9OOU5kSnI5YVhwZ29oMWQ1WjktV0hfX3d1SnU5NDdaM3ZrWkcyTjZybDZNTFM4V0E?oc=5",
-   "source": "Ouest-France",
-   "published": "2026-11-15",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "uaae4d719",
-   "title": "Ronchamp. Sculpture sur métal : une exposition qui réunit art et inclusion",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNX3lJN2VhZ0VLc3Yta0YtNl9wQUJBdTMwMHQyWmVrbEppbzJhU0VhMmRxZFQxRll0NkUtRGd5dkxNZ2NYaWlxcmNfRnV6eTZCSEFLaUVTaGtZMFhVUGQyN3lYYXpRNGhJQVhlX1RkQ1EtQjZlNS1PYTc3c1lhT2tUdGhJMjU3UjYzaGxfUTNvTTltTkV6TDg2VllNbmFCOGhMTThMRGRWandyYnFxTFBCM18zcGxIbWRKMlNR?oc=5",
+   "id": "u3d0744bd",
+   "title": "Quingey. Rompre l’isolement face à la souffrance psychique",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlEwU1hqYkhtNDJNRGluXzVDZjVKZU4wd3puTE9TWXlIay1aclBIZWxfVEFIUTBseVVwYWpwTGYzamlzRlBYSXBYaUVxQmdvcXRKc21PUUFfRjJpYjFTX1hYOHFFcF92ZlpsbEhUZHdLUVAyWGkzN3RqM2dLbHZDakp1UkJKM3NIUXQ3VmVmVVh6eWFwX3VqRXJJVzc?oc=5",
    "source": "L'Est Républicain",
-   "published": "2026-11-14",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "ucdea486e",
-   "title": "Les Invités au Festin : cinq dispositifs repris par la Fondation Pluriel",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR21tay05MVVWb0JZcEhDSWd6UGtiTzNZcUUwZUNueWV5U3pLUFBsYkI1WUNUUmxNRUNnOVByVVNmMkQ5dnhmZkdraXdJWUpSclFEbUhvMF8tZFc5STlieUd4STcyX0JfV2VzbVlvaTBpMm1TNjI0bmMtbVZYbEtxUmdFNzNVLWlhaUowcFY5YnFNcjJBdWR5ZEl4azRTeGVpTlFPTW9Wc2hoWFZFaC12TjJGYmhleHRm?oc=5",
-   "source": "Plein Air",
-   "published": "2026-11-14",
+   "published": "2026-11-15",
    "feed": "terme-exact"
   }
  ]

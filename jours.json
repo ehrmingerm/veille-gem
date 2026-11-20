@@ -1,8 +1,8 @@
 {
- "maj": "2026-11-20T11:43:04+00:00",
+ "maj": "2026-11-20T11:52:04+00:00",
  "jours_couverts": 22,
- "total": 19,
- "liens_non_resolus": 19,
+ "total": 20,
+ "liens_non_resolus": 20,
  "jours": [
   {
    "date": "2026-11-20",
@@ -42,14 +42,31 @@
      "feed": "terme-exact",
      "summary": "",
      "statut": ""
+    },
+    {
+     "id": "u3d0744bd",
+     "title": "Quingey. Rompre l’isolement face à la souffrance psychique",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRlEwU1hqYkhtNDJNRGluXzVDZjVKZU4wd3puTE9TWXlIay1aclBIZWxfVEFIUTBseVVwYWpwTGYzamlzRlBYSXBYaUVxQmdvcXRKc21PUUFfRjJpYjFTX1hYOHFFcF92ZlpsbEhUZHdLUVAyWGkzN3RqM2dLbHZDakp1UkJKM3NIUXQ3VmVmVVh6eWFwX3VqRXJJVzc?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "L'Est Républicain",
+     "published": "2026-11-15",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
     }
    ],
-   "collecte": "2026-11-20T11:43:04+00:00",
+   "collecte": "2026-11-20T11:52:04+00:00",
    "flux": [
     {
      "cle": "terme-exact",
      "etat": "ok",
-     "retenus": 3
+     "retenus": 1
+    },
+    {
+     "cle": "terme-exact-pluriel",
+     "etat": "ok",
+     "retenus": 0
     },
     {
      "cle": "sigle-qualifie",
