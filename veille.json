@@ -1,16 +1,16 @@
 {
- "genere": "2026-11-23T00:46:25+00:00",
+ "genere": "2026-11-23T12:18:45+00:00",
  "fenetre_jours": 14,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" when:14d",
    "etat": "ok",
-   "bruts": 11,
-   "retenus": 11,
+   "bruts": 8,
+   "retenus": 8,
    "hors_fenetre": 0,
    "exclus": 0,
-   "plus_recent": "2026-11-22"
+   "plus_recent": "2026-11-23"
   },
   {
    "cle": "terme-exact-pluriel",
@@ -20,14 +20,14 @@
    "retenus": 4,
    "hors_fenetre": 0,
    "exclus": 0,
-   "plus_recent": "2026-11-20"
+   "plus_recent": "2026-11-23"
   },
   {
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") when:14d",
    "etat": "ok",
-   "bruts": 4,
-   "retenus": 4,
+   "bruts": 3,
+   "retenus": 3,
    "hors_fenetre": 0,
    "exclus": 0,
    "plus_recent": "2026-11-21"
@@ -43,8 +43,24 @@
    "plus_recent": ""
   }
  ],
- "total": 15,
+ "total": 12,
  "items": [
+  {
+   "id": "ube7187ad",
+   "title": "Autisme : \"Le manque de places en unités d'accueil est un vrai sujet, mais l'offre d'accompagnement s'est diversifiée\"",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMXV2TnJVamVGUWlZUGUweEFQUEVxREJKRUd0ZDkxa0NmQjk1UFJhS0k4ZFFiTmhvY0dMdV9na1VMelhaLTM3VkV0SDNiZ2dUNDZoWGlXMlRhYlQxYW5nemd2V0R3Z0JwUXFTai1PbTJXR2dxbDdkeVQ5b3VVbnA0REpiUVdPcnN5d3I4cnFreEkzbjBjLU9HWFBGMWZKTWg0QWRreldwZG16UUttcnJGcWIzNmNMTk1nZENWX2tkbFNrLVRUR1AzdGVyWDAzdVdNSk1oZm92UWV0YXlmUVJHYnJkUzlSVzJQZGl1NWQtMVJOUHRQLXJsNg?oc=5",
+   "source": "La Provence",
+   "published": "2026-11-23",
+   "feed": "terme-exact-pluriel"
+  },
+  {
+   "id": "ud1c56df6",
+   "title": "La Chapelle-sur-Erdre. Le Rendez-vous des Possibles : deux semaines dédiées au handicap",
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOQ0FUWkVsbUJvdE5oQ2JrU0NXYlRucHRoMUN3Tkh5TmJPZHVlVXlPcmxzNm41S1kwOVc3M0hQWFRWOFpodVNMaTJVaTNpR09WMjJXRzdRbUxueWFmY2J1QmdRSmRZRTMwSGpJckNfX3cyWk1Ybk1Ra2VMbU1aY0FTeU9qNXF6RWlpd2J2eDY1cnNKSnRhcGlpWURRME1UdDZUem1LTU5RWWZ5RmZ2SlZZUXM0dmF3WmVoMDdhMUFVTElqVGNvTkN2QjRUZURoWlNBQXhqVGE3d2JWRDAxT0lCTVY1YlFyNTR0VnlONzUtWHNoTFNpWG55S0lXUkUxeWkydi1PSjBMQkVJSGc2U3RqODhSNEh1djNGRzNDdzlPOA?oc=5",
+   "source": "Ouest-France",
+   "published": "2026-11-23",
+   "feed": "terme-exact"
+  },
   {
    "id": "u3906ae86",
    "title": "Creuse : des habitants sont appelés à fouiller dans leur grenier pour trouver des photos de la Seconde Guerre mondiale",
@@ -123,46 +139,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMU5jRnNneUgycWc5d0d2T2RVbnM3d0pwMURvb2JXd3kwSWZCSTFqZHR5Tmh6dUhCN2kwSGJsRkhza3Zpdk02OUYwb3RuWllQV3ZNRl9Rd0VxZFE0MnBJYWtWX05PTC1YODBxWTc0Y1RVb2ttcUhIZkN5SGM2VFhrdVFKMFpZdFBBaHVJeGlMdk9fSlZBOW9F?oc=5",
    "source": "Aleteia",
    "published": "2026-11-10",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u5bfdc10e",
-   "title": "Albertville. Tout savoir sur le GEM Renaissance, cet antidote chaleureux à l’isolement",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUE4zQnU5bzJXTVVDOVJJTGdGVndQblVmaHlteGhQNGh0c1U3QWlvQUdaR1BaXzloYUhtU1hJWVNSRWtpcE1SVFN4VDZMRWhYa3N4V0hoWm1ycEd2bjRpZy1SWFF3MHFncHN5OUZ0T1hiM1pVMzB4Qkl4LWNDMHUtdm1ab3ZEWVlLUlVDcjFOcVl2RFJZaHNzbUhjSEROeUxySWV0Y2Rxc2p1bDRzay1rbFh2a1dRZlZ3?oc=5",
-   "source": "Le Dauphiné Libéré",
-   "published": "2026-11-09",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "ua16e1ad9",
-   "title": "Plouguenast-Langast : jeunes de la MFR et membres du GEM réunis autour du four à pain au Vieux-Bourg",
-   "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPeUVlRWVBQWhMREMzenZLRUNnMTg4LU1ZVjd5RnFERS0yYmIxeDR6RTlLSC0zVHRJTVFTNk1VSk5qcXBRcVBpUXdMdG9Tb0NEaVdhNGM0Y2otcnkwa0EtLUpLczdJYVUxMEc3bFRVMkhubndUdVl1TEtmME9PNU1wSklqY3NjN2ljT2lmeUVpeU14RXNoMV9BT1lRLXJ1Mk1sc2hvQlp2c0YyTVlCSGxPcXd0QzdrT0N5YlpIeUJpNGZjWnV5am5wTTdWYTg4UjV6b3V6WWlyU0VmMlJIUmRVZjdnWGJnQ1BjUHphVGxtWjVuVFgySWM1QkFwci14VnM1NEJWcC0xM1hzZw?oc=5",
-   "source": "Le Télégramme",
-   "published": "2026-11-09",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u644dd6bd",
-   "title": "Passy. Huit personnes en situation de handicap découvrent le parapente",
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQem4tRUNaN0R1dTNhc2xIcFY0MDRsSUdBY0RObjlid21rSGNmWWNOTmFwZkpsaVdNZ3J3bjRTUjhrdmdHLXMwbnlTbGNKcWgzTU90MkUyQkxwaTVJaFd0RVhvcXV4VHV4V1ljdGRZV3BNQzQtMEF2SUkwbGhITFBNUEJ2OS1uOHl2QnFQVmNmQ21DRmQzWGJWTGpmX0ZyX0x1MzdaUU5lOTR3UVRLd2c?oc=5",
-   "source": "Le Dauphiné Libéré",
-   "published": "2026-11-09",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "uae325c87",
-   "title": "« Dans la continuité », la Fondation Pluriel reprend l’ensemble des activités des Invités au festin",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOeDIweE1DSk85SklVQjdWNWYwNERaUlhMbVBfOWl0dlNQR0tnVmJSN1MwUF9Ua2luWlo0RzBUcVRDWWFNOUU3eThnUDBpQXU0azIwLUxWMVVwc041TUN1cmotQlVSakxwQjJUYlNfS1o3WHk2aWZHZVJhWmhWMkpKX0IwUloxS3h6MVY2R1JRODJyckxxZk12M3JvazdZTXIwM3NDc1lRLXJVV25HU1R4U1oxdFRkby14ZlFvaFEzREJ6b2RWSldIWC1mMFRlWS04SjhIZ3B6NWRfWm8?oc=5",
-   "source": "L'Est Républicain",
-   "published": "2026-11-09",
-   "feed": "terme-exact-pluriel"
-  },
-  {
-   "id": "uf9871710",
-   "title": "Reprise des Invités au festin : d’abord inquiets puis rassurés, qu’en pensent les bénéficiaires ?",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVG5XNEdlc3hVX2dhT2dONDVuMUFuY0dySXc1T0tXemJFN0VYLWxsTkJ4bVFURkhSTzJTdUZfMklEMEJ5RW5LSVZ3TUlVUDkxYk9ZODNVY2lsU3lkeEVxVy0xNWFmMkFvQ2lSWnZDSjY2VEk1dWFvWUNHLVlyTzA0cHJ4Yng3QjA0cGtHTW1CdDZpc3JURElYbDh4MzlnZk1vSG5LZHJXVzRTeVNaNWZZZ3VUM1BCVHJBME1XbWJEdnp3OEF0SXN1YWZIMXhRUGVhcWk3U09XZjU?oc=5",
-   "source": "L'Est Républicain",
-   "published": "2026-11-09",
    "feed": "terme-exact"
   }
  ]

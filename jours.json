@@ -1,18 +1,43 @@
 {
- "maj": "2026-11-23T00:46:25+00:00",
+ "maj": "2026-11-23T12:18:45+00:00",
  "jours_couverts": 34,
- "total": 30,
- "liens_non_resolus": 30,
+ "total": 32,
+ "liens_non_resolus": 32,
  "jours": [
   {
    "date": "2026-11-23",
-   "items": [],
-   "collecte": "2026-11-23T00:46:25+00:00",
+   "items": [
+    {
+     "id": "ube7187ad",
+     "title": "Autisme : \"Le manque de places en unités d'accueil est un vrai sujet, mais l'offre d'accompagnement s'est diversifiée\"",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPMXV2TnJVamVGUWlZUGUweEFQUEVxREJKRUd0ZDkxa0NmQjk1UFJhS0k4ZFFiTmhvY0dMdV9na1VMelhaLTM3VkV0SDNiZ2dUNDZoWGlXMlRhYlQxYW5nemd2V0R3Z0JwUXFTai1PbTJXR2dxbDdkeVQ5b3VVbnA0REpiUVdPcnN5d3I4cnFreEkzbjBjLU9HWFBGMWZKTWg0QWRreldwZG16UUttcnJGcWIzNmNMTk1nZENWX2tkbFNrLVRUR1AzdGVyWDAzdVdNSk1oZm92UWV0YXlmUVJHYnJkUzlSVzJQZGl1NWQtMVJOUHRQLXJsNg?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "La Provence",
+     "published": "2026-11-23",
+     "feed": "terme-exact-pluriel",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "ud1c56df6",
+     "title": "La Chapelle-sur-Erdre. Le Rendez-vous des Possibles : deux semaines dédiées au handicap",
+     "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOQ0FUWkVsbUJvdE5oQ2JrU0NXYlRucHRoMUN3Tkh5TmJPZHVlVXlPcmxzNm41S1kwOVc3M0hQWFRWOFpodVNMaTJVaTNpR09WMjJXRzdRbUxueWFmY2J1QmdRSmRZRTMwSGpJckNfX3cyWk1Ybk1Ra2VMbU1aY0FTeU9qNXF6RWlpd2J2eDY1cnNKSnRhcGlpWURRME1UdDZUem1LTU5RWWZ5RmZ2SlZZUXM0dmF3WmVoMDdhMUFVTElqVGNvTkN2QjRUZURoWlNBQXhqVGE3d2JWRDAxT0lCTVY1YlFyNTR0VnlONzUtWHNoTFNpWG55S0lXUkUxeWkydi1PSjBMQkVJSGc2U3RqODhSNEh1djNGRzNDdzlPOA?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Ouest-France",
+     "published": "2026-11-23",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-11-23T12:18:45+00:00",
    "flux": [
     {
      "cle": "terme-exact",
      "etat": "ok",
-     "retenus": 11
+     "retenus": 8
     },
     {
      "cle": "terme-exact-pluriel",
@@ -22,7 +47,7 @@
     {
      "cle": "sigle-qualifie",
      "etat": "ok",
-     "retenus": 4
+     "retenus": 3
     },
     {
      "cle": "federation",
