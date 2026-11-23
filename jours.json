@@ -1,12 +1,98 @@
 {
- "maj": "2026-11-20T11:57:50+00:00",
- "jours_couverts": 31,
- "total": 25,
- "liens_non_resolus": 25,
+ "maj": "2026-11-23T00:46:25+00:00",
+ "jours_couverts": 34,
+ "total": 30,
+ "liens_non_resolus": 30,
  "jours": [
   {
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "items": [],
+   "collecte": "2026-11-23T00:46:25+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 11
+    },
+    {
+     "cle": "terme-exact-pluriel",
+     "etat": "ok",
+     "retenus": 4
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 4
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "items": [
+    {
+     "id": "u3906ae86",
+     "title": "Creuse : des habitants sont appelés à fouiller dans leur grenier pour trouver des photos de la Seconde Guerre mondiale",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPa1FVdERqTzlleXlGRVZGcU9qZFhxenRjcnNxSWM2QXB5c2dLeDVwVlRJRGNJdlllMFBVcU5Ha3NNeUtBYjJfVWdJWHFwYTZRNmI3MDFacTd2UGRZOGYwVUN5YWlKWlFndmtYb0ROSlFUaHJ4bTYxQ2hmVnRwLW5QR0ptWTVselFvQ05BeHhDdHIwcUpaSHJJOTk4RU5lNlRnMjBSeENRaXBfdGdpOVVteUlSUlZrUUp1YXZwR0FzUmF1QnN0X3dnQjBURG9fU1VzZTlaSWdvcVNhRVFTeGExZmJvOXVuYkp5YnlWVnM4WG9EY21BV1NvM3pmaFpZUUU2N0N3SmZseHhmNjlrSHNtWQ?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "ici.fr",
+     "published": "2026-11-22",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "items": [
+    {
+     "id": "u5d3516a0",
+     "title": "Souad, 45 ans. Schizophrène rétablie, cette Haguenovienne craint qu’on « coupe les vannes » aux structures œuvrant pour la santé mentale",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVXFXeXIyNTJLeVVJcWk1aWRFR2d4RzJiQWV3d1JQU3FlRVJra1JzWDhPazRmVFJpVmZXUWZBcVZWalhiNVBQcFd4cnA2Q1NQVmxCXzBpWnlsUHExWEQ4WGNqUmpPdkN4VXJvS2dYN2R5UXlINmp5RjFmb1dKbWhQMVRCYXc0bzR3dHpUTVpteE9KS1Z6LVhmLXpEV0RPQmRvdW9ZeWRxeXdHNm1RNWRFdkI3dE9QNWhZWVF3a0R3N1JBTExaMVNQTjBGVDVaZ0ptdnQzcw?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "DNA.fr",
+     "published": "2026-11-21",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "items": [
+    {
+     "id": "u81e980d8",
+     "title": "Les psychologues cliniciens réclament de donner la priorité à la prise en charge des survivants du suicide dans les politiques de prévention",
+     "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQzhoUmFpUVZOa25YWWNtazlxMmlyQjNlcDVzREtNano3VE5ILTNMUTBmWGs4TE5wd2k3LUliM1JkT09CcnJGWlhfRmM1Y01vMEpvMEh5dkJLYkNsaFoxR1FPbElycmdIUjdGeEZNNkRWSHAzazVSemZBX1NDMVMyd3RBcTFxd2NqTFBWSm8zVm9ERjliY3dMWnlaWGQ3NHpfZDYyV2lGamllRERqd0M2Mkl6LS1EN3hNZHJPbEpodmZ3OWRjalpHUFVEQ2VwejI5WVJOWkhwTDRRVWhjbzFGWW5zWHUxeDBrU3dNUWw5MHU0RkpDdTlVNXV2d2hhcEpKSl9lU0ItR2pFYlHSAYsCQVVfeXFMTUM4aFJhaVFWTmtuWFljbWs5cTJpckIzZXA1c0RLTWp6N1ROSC0zTFEwZlhrOExOcHdpNy1JYjNSZE9PQnJyRlpYX0ZjNWNNbzBKbzBIeXZCS2JDbGhaMUdRT2xJcnJnSFI3RnhGTTZEVkhwM2s1UnpmQV9TQzFTMnd0QXExcXdjakxQVkpvM1ZvREY5YmN3TFp5WlhkNzR6X2Q2MldpRmppZUREandDNjJJei0tRDd4TWRyT2xKaHZmdzlkY2paR1BVRENlcHoyOVlSTlpIcEw0UVVoY28xRlluc1h1MXgwa1N3TVFsOTB1NEZKQ3U5VTV1dndoYXBKSkpfZVNCLUdqRWJR?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Demócrata",
+     "published": "2026-11-20",
+     "feed": "terme-exact-pluriel",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u180520a2",
+     "title": "À Beaux, l’État mobilise 1,23 million d’euros pour moderniser l’EHPAD Les Cèdres",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMWw5WUtmMHl4aTRuRWNmWmtuZzhNMXVENmY1bzZQNENlRXVLREg0d2V1ZlBwb0NiemtOT3hqakZiYmxkZHltTG5fRDlsbW5SNDRScG1BbHBQWm43MTBQTFQtcWRFVkJNQkoxOXlnNHVzMW5BSDhwVVlNQlBzLWxkRmNBQ28ydXF2a25Hdl9RVEJ3SndWcE1OSkNkTjVnRVBweEhiLWlWSVFsMVZlSW9Ha0NyNDdZMWVzS2h3?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Agence Régionale de Santé (ARS) Auvergne-Rhône-Alpes",
+     "published": "2026-11-20",
+     "feed": "sigle-qualifie",
+     "summary": "",
+     "statut": ""
+    }
+   ],
    "collecte": "2026-11-20T11:57:50+00:00",
    "flux": [
     {
@@ -353,6 +439,18 @@
      "source": "L'Est Républicain",
      "published": "2026-11-09",
      "feed": "terme-exact-pluriel",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u644dd6bd",
+     "title": "Passy. Huit personnes en situation de handicap découvrent le parapente",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQem4tRUNaN0R1dTNhc2xIcFY0MDRsSUdBY0RObjlid21rSGNmWWNOTmFwZkpsaVdNZ3J3bjRTUjhrdmdHLXMwbnlTbGNKcWgzTU90MkUyQkxwaTVJaFd0RVhvcXV4VHV4V1ljdGRZV3BNQzQtMEF2SUkwbGhITFBNUEJ2OS1uOHl2QnFQVmNmQ21DRmQzWGJWTGpmX0ZyX0x1MzdaUU5lOTR3UVRLd2c?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Le Dauphiné Libéré",
+     "published": "2026-11-09",
+     "feed": "terme-exact",
      "summary": "",
      "statut": ""
     }
