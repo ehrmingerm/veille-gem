@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-24T04:42:38+00:00",
+ "genere": "2026-11-24T13:33:07+00:00",
  "fenetre_jours": 14,
  "flux": [
   {
@@ -43,7 +43,7 @@
    "plus_recent": ""
   }
  ],
- "total": 13,
+ "total": 12,
  "items": [
   {
    "id": "uf95d7486",
@@ -139,14 +139,6 @@
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOazg2bThFbnFxUFh5YUU4U29LMEtBTEhwcnhRTmdrQ25iTzNGNUhjVFA5Z2tDMnN0aEFiYWhGMWRZU1FlYVBpLWFOUFV0V2hVRFZLR2dTRWJ4UC0yUmRwaUx2S3FfdFlQSDRKMHdBdmtUOWY4S3dJaFhrZlFINFlLU2t0dzJ5MEt6YWxGblJlT2hVV2N6RFhjcGlaaXFrb1pvVjR2M2JHRFNPSWJDemJPamRVUDdRRnRFNWg3SUFGb3Z2WktPQmRUbTBDZHNmdzA?oc=5",
    "source": "Le Progrès",
    "published": "2026-11-11",
-   "feed": "terme-exact-pluriel"
-  },
-  {
-   "id": "u628a51f2",
-   "title": "Un intercesseur pour les personnes psychiquement fragiles",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMU5jRnNneUgycWc5d0d2T2RVbnM3d0pwMURvb2JXd3kwSWZCSTFqZHR5Tmh6dUhCN2kwSGJsRkhza3Zpdk02OUYwb3RuWllQV3ZNRl9Rd0VxZFE0MnBJYWtWX05PTC1YODBxWTc0Y1RVb2ttcUhIZkN5SGM2VFhrdVFKMFpZdFBBaHVJeGlMdk9fSlZBOW9F?oc=5",
-   "source": "Aleteia",
-   "published": "2026-11-10",
    "feed": "terme-exact"
   }
  ]
