@@ -1,9 +1,36 @@
 {
- "maj": "2026-11-23T12:18:45+00:00",
- "jours_couverts": 34,
- "total": 32,
- "liens_non_resolus": 32,
+ "maj": "2026-11-24T04:42:38+00:00",
+ "jours_couverts": 35,
+ "total": 33,
+ "liens_non_resolus": 33,
  "jours": [
+  {
+   "date": "2026-11-24",
+   "items": [],
+   "collecte": "2026-11-24T04:42:38+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 9
+    },
+    {
+     "cle": "terme-exact-pluriel",
+     "etat": "ok",
+     "retenus": 4
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 3
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-11-23",
    "items": [
@@ -23,6 +50,18 @@
      "id": "ud1c56df6",
      "title": "La Chapelle-sur-Erdre. Le Rendez-vous des Possibles : deux semaines dédiées au handicap",
      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOQ0FUWkVsbUJvdE5oQ2JrU0NXYlRucHRoMUN3Tkh5TmJPZHVlVXlPcmxzNm41S1kwOVc3M0hQWFRWOFpodVNMaTJVaTNpR09WMjJXRzdRbUxueWFmY2J1QmdRSmRZRTMwSGpJckNfX3cyWk1Ybk1Ra2VMbU1aY0FTeU9qNXF6RWlpd2J2eDY1cnNKSnRhcGlpWURRME1UdDZUem1LTU5RWWZ5RmZ2SlZZUXM0dmF3WmVoMDdhMUFVTElqVGNvTkN2QjRUZURoWlNBQXhqVGE3d2JWRDAxT0lCTVY1YlFyNTR0VnlONzUtWHNoTFNpWG55S0lXUkUxeWkydi1PSjBMQkVJSGc2U3RqODhSNEh1djNGRzNDdzlPOA?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Ouest-France",
+     "published": "2026-11-23",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "uf95d7486",
+     "title": "Jeux, exposition, café et concert : à Dinard, l’association Le Sémaphore fête ses 20 ans lors d’une journée festive",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPVThTN0gyXzUzTlN2aTJLOTZiVThyek9JZjViQjBsb0k3b3VjMEFTT3l1NTRfLUNyZFpEaW1NWThrNnhYSlFpbUswZjg2cGFDeTgwSVo0SnpmOHlzRjVWaEd6cy1HOVNDVFBwMG55LU84WExPTEdVZEhIS0xESXV0Z25aVlBEdlQ2NDhvYXhKdlN3WWZGM1loclZrRk1XRzlmTmFuNlpsRnRUZ0piV2ZTSjlTWGVQU2xMdThJSWVBbWZiaDRBeFlfdFZsbTQ4eGRRbElTRmFjYXJhTnQ4Y3ZBRnBMMjgyZlI0d1RDaU1PbjJvdmdXMWV4WnlQb05paWNIbE1aTGgtTVlucGhVem1FbW9EN21pWC02YVNtcWM1ajY?oc=5",
      "gnews": "",
      "resolu": false,
      "source": "Ouest-France",

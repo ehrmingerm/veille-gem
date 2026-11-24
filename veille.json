@@ -1,13 +1,13 @@
 {
- "genere": "2026-11-23T12:18:45+00:00",
+ "genere": "2026-11-24T04:42:38+00:00",
  "fenetre_jours": 14,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" when:14d",
    "etat": "ok",
-   "bruts": 8,
-   "retenus": 8,
+   "bruts": 9,
+   "retenus": 9,
    "hors_fenetre": 0,
    "exclus": 0,
    "plus_recent": "2026-11-23"
@@ -43,8 +43,16 @@
    "plus_recent": ""
   }
  ],
- "total": 12,
+ "total": 13,
  "items": [
+  {
+   "id": "uf95d7486",
+   "title": "Jeux, exposition, café et concert : à Dinard, l’association Le Sémaphore fête ses 20 ans lors d’une journée festive",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPVThTN0gyXzUzTlN2aTJLOTZiVThyek9JZjViQjBsb0k3b3VjMEFTT3l1NTRfLUNyZFpEaW1NWThrNnhYSlFpbUswZjg2cGFDeTgwSVo0SnpmOHlzRjVWaEd6cy1HOVNDVFBwMG55LU84WExPTEdVZEhIS0xESXV0Z25aVlBEdlQ2NDhvYXhKdlN3WWZGM1loclZrRk1XRzlmTmFuNlpsRnRUZ0piV2ZTSjlTWGVQU2xMdThJSWVBbWZiaDRBeFlfdFZsbTQ4eGRRbElTRmFjYXJhTnQ4Y3ZBRnBMMjgyZlI0d1RDaU1PbjJvdmdXMWV4WnlQb05paWNIbE1aTGgtTVlucGhVem1FbW9EN21pWC02YVNtcWM1ajY?oc=5",
+   "source": "Ouest-France",
+   "published": "2026-11-23",
+   "feed": "terme-exact"
+  },
   {
    "id": "ube7187ad",
    "title": "Autisme : \"Le manque de places en unités d'accueil est un vrai sujet, mais l'offre d'accompagnement s'est diversifiée\"",
@@ -73,14 +81,14 @@
    "id": "u5d3516a0",
    "title": "Souad, 45 ans. Schizophrène rétablie, cette Haguenovienne craint qu’on « coupe les vannes » aux structures œuvrant pour la santé mentale",
    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVXFXeXIyNTJLeVVJcWk1aWRFR2d4RzJiQWV3d1JQU3FlRVJra1JzWDhPazRmVFJpVmZXUWZBcVZWalhiNVBQcFd4cnA2Q1NQVmxCXzBpWnlsUHExWEQ4WGNqUmpPdkN4VXJvS2dYN2R5UXlINmp5RjFmb1dKbWhQMVRCYXc0bzR3dHpUTVpteE9KS1Z6LVhmLXpEV0RPQmRvdW9ZeWRxeXdHNm1RNWRFdkI3dE9QNWhZWVF3a0R3N1JBTExaMVNQTjBGVDVaZ0ptdnQzcw?oc=5",
-   "source": "DNA.fr",
+   "source": "dna.fr",
    "published": "2026-11-21",
    "feed": "terme-exact"
   },
   {
-   "id": "u81e980d8",
+   "id": "ue939fc6b",
    "title": "Les psychologues cliniciens réclament de donner la priorité à la prise en charge des survivants du suicide dans les politiques de prévention",
-   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQzhoUmFpUVZOa25YWWNtazlxMmlyQjNlcDVzREtNano3VE5ILTNMUTBmWGs4TE5wd2k3LUliM1JkT09CcnJGWlhfRmM1Y01vMEpvMEh5dkJLYkNsaFoxR1FPbElycmdIUjdGeEZNNkRWSHAzazVSemZBX1NDMVMyd3RBcTFxd2NqTFBWSm8zVm9ERjliY3dMWnlaWGQ3NHpfZDYyV2lGamllRERqd0M2Mkl6LS1EN3hNZHJPbEpodmZ3OWRjalpHUFVEQ2VwejI5WVJOWkhwTDRRVWhjbzFGWW5zWHUxeDBrU3dNUWw5MHU0RkpDdTlVNXV2d2hhcEpKSl9lU0ItR2pFYlHSAYsCQVVfeXFMTUM4aFJhaVFWTmtuWFljbWs5cTJpckIzZXA1c0RLTWp6N1ROSC0zTFEwZlhrOExOcHdpNy1JYjNSZE9PQnJyRlpYX0ZjNWNNbzBKbzBIeXZCS2JDbGhaMUdRT2xJcnJnSFI3RnhGTTZEVkhwM2s1UnpmQV9TQzFTMnd0QXExcXdjakxQVkpvM1ZvREY5YmN3TFp5WlhkNzR6X2Q2MldpRmppZUREandDNjJJei0tRDd4TWRyT2xKaHZmdzlkY2paR1BVRENlcHoyOVlSTlpIcEw0UVVoY28xRlluc1h1MXgwa1N3TVFsOTB1NEZKQ3U5VTV1dndoYXBKSkpfZVNCLUdqRWJR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdUZjN0hkQWZOS3AtYV9UYzRiYWZuY1phOGNQcDRUbHFvU1ZjVUIxcWVRWjR3NVBYdmRwMXl2ZjBueWoyTjZ1SnlCUDh2UjBmSXJGTVlTenhodFFHeFBHNHcta2NOZFQwWXB4MjFEUUFtYlZqY21Od3llS0xRdm9kbnJydWlJdk1GeG9kdHlMWWJXbi1QVU03MS1heVBrSjMwNmFQNW9NUkh4MXA3NmFkSm0yNGVTMDlEcEVjTkIwQ1FiSzB4STBhb3dVeXJfVjJxdmdEYnAyUng0enpSbXo4ekFlR1pCNmR1N1RQbVkzMmFabmFQRTZmLUtpMkFLekFyR2dtcW1n0gGLAkFVX3lxTE1DOGhSYWlRVk5rblhZY21rOXEyaXJCM2VwNXNES01qejdUTkgtM0xRMGZYazhMTnB3aTctSWIzUmRPT0JyckZaWF9GYzVjTW8wSm8wSHl2QktiQ2xoWjFHUU9sSXJyZ0hSN0Z4Rk02RFZIcDNrNVJ6ZkFfU0MxUzJ3dEFxMXF3Y2pMUFZKbzNWb0RGOWJjd0xaeVpYZDc0el9kNjJXaUZqaWVERGp3QzYySXotLUQ3eE1kck9sSmh2Znc5ZGNqWkdQVURDZXB6MjlZUk5aSHBMNFFVaGNvMUZZbnNYdTF4MGtTd01RbDkwdTRGSkN1OVU1dXZ3aGFwSkpKX2VTQi1HakViUQ?oc=5",
    "source": "Demócrata",
    "published": "2026-11-20",
    "feed": "terme-exact-pluriel"
