@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-25T03:30:29+00:00",
+ "genere": "2026-11-25T12:42:04+00:00",
  "fenetre_jours": 14,
  "flux": [
   {
@@ -10,14 +10,14 @@
    "retenus": 9,
    "hors_fenetre": 0,
    "exclus": 0,
-   "plus_recent": "2026-11-23"
+   "plus_recent": "2026-11-25"
   },
   {
    "cle": "terme-exact-pluriel",
    "requete": "\"groupes d'entraide mutuelle\" when:14d",
    "etat": "ok",
-   "bruts": 4,
-   "retenus": 4,
+   "bruts": 3,
+   "retenus": 3,
    "hors_fenetre": 0,
    "exclus": 0,
    "plus_recent": "2026-11-23"
@@ -26,8 +26,8 @@
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") when:14d",
    "etat": "ok",
-   "bruts": 3,
-   "retenus": 3,
+   "bruts": 2,
+   "retenus": 2,
    "hors_fenetre": 0,
    "exclus": 0,
    "plus_recent": "2026-11-21"
@@ -45,6 +45,14 @@
  ],
  "total": 12,
  "items": [
+  {
+   "id": "ub1bcc212",
+   "title": "Coutances. Le Gem Arrimage fait ses débuts sur les ondes avec une association",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUFob2hkZS1BaENod3FPVVJYYmQtdkxoVTRnNzd1TUtTQU9CVFRGVXJJTHlmZlB2bWRJMFN4bFR1NS05bFNXS0JxQmoyalk1VFRURVowdU9hSWRIRVhsZTQtRERJeEt3NHk0cVhJdlRWUHBISkhUcVMtbXBSV2ZWX3NXZHlzSnYtbWdlbHZ4ay10c2RWMEtfbXg5V0xjQ1d2WXZteUc0NFpocktreHBGS0NPS1JvZVhtYnU4T0l1bGI?oc=5",
+   "source": "lamanchelibre.fr",
+   "published": "2026-11-25",
+   "feed": "terme-exact"
+  },
   {
    "id": "uf95d7486",
    "title": "Jeux, exposition, café et concert : à Dinard, l’association Le Sémaphore fête ses 20 ans lors d’une journée festive",
@@ -131,14 +139,6 @@
    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjI0dkptTGUtUVZVV2xic0dDYnE5V01aU09KZ2lzRVJJVzJGWnNRcVh1eU1UOGFzNG1TVEVXLXJhVGRaeHRUQm5JeV9KR0VJQWpTMnBSTHZCa2htbEgtckxkOEsteG5HUXotNFBmN2ltaU5LOFJzb3YtWmc3Zy1ZUGpQNURENWxNdzhuTE1NNUgxQThYSXRFZHpjTm9iMlZZWGs0SzB1T2dtREpzNWI3WEdiTQ?oc=5",
    "source": "Plein Air",
    "published": "2026-11-14",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "u492673b",
-   "title": "Lons-le-Saunier. Autisme : avec la “pair-aidance”, ils s’entraident en fonction de leur vécu et de leur expérience",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOazg2bThFbnFxUFh5YUU4U29LMEtBTEhwcnhRTmdrQ25iTzNGNUhjVFA5Z2tDMnN0aEFiYWhGMWRZU1FlYVBpLWFOUFV0V2hVRFZLR2dTRWJ4UC0yUmRwaUx2S3FfdFlQSDRKMHdBdmtUOWY4S3dJaFhrZlFINFlLU2t0dzJ5MEt6YWxGblJlT2hVV2N6RFhjcGlaaXFrb1pvVjR2M2JHRFNPSWJDemJPamRVUDdRRnRFNWg3SUFGb3Z2WktPQmRUbTBDZHNmdzA?oc=5",
-   "source": "Le Progrès",
-   "published": "2026-11-11",
    "feed": "terme-exact"
   }
  ]

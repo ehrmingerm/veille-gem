@@ -1,13 +1,26 @@
 {
- "maj": "2026-11-25T03:30:29+00:00",
+ "maj": "2026-11-25T12:42:04+00:00",
  "jours_couverts": 36,
- "total": 33,
- "liens_non_resolus": 33,
+ "total": 34,
+ "liens_non_resolus": 34,
  "jours": [
   {
    "date": "2026-11-25",
-   "items": [],
-   "collecte": "2026-11-25T03:30:29+00:00",
+   "items": [
+    {
+     "id": "ub1bcc212",
+     "title": "Coutances. Le Gem Arrimage fait ses débuts sur les ondes avec une association",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVUFob2hkZS1BaENod3FPVVJYYmQtdkxoVTRnNzd1TUtTQU9CVFRGVXJJTHlmZlB2bWRJMFN4bFR1NS05bFNXS0JxQmoyalk1VFRURVowdU9hSWRIRVhsZTQtRERJeEt3NHk0cVhJdlRWUHBISkhUcVMtbXBSV2ZWX3NXZHlzSnYtbWdlbHZ4ay10c2RWMEtfbXg5V0xjQ1d2WXZteUc0NFpocktreHBGS0NPS1JvZVhtYnU4T0l1bGI?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "lamanchelibre.fr",
+     "published": "2026-11-25",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-11-25T12:42:04+00:00",
    "flux": [
     {
      "cle": "terme-exact",
@@ -17,12 +30,12 @@
     {
      "cle": "terme-exact-pluriel",
      "etat": "ok",
-     "retenus": 4
+     "retenus": 3
     },
     {
      "cle": "sigle-qualifie",
      "etat": "ok",
-     "retenus": 3
+     "retenus": 2
     },
     {
      "cle": "federation",
