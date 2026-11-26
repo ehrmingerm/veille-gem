@@ -1,9 +1,36 @@
 {
- "maj": "2026-11-25T12:42:04+00:00",
- "jours_couverts": 36,
- "total": 34,
- "liens_non_resolus": 34,
+ "maj": "2026-11-26T02:45:31+00:00",
+ "jours_couverts": 37,
+ "total": 35,
+ "liens_non_resolus": 35,
  "jours": [
+  {
+   "date": "2026-11-26",
+   "items": [],
+   "collecte": "2026-11-26T02:45:31+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 10
+    },
+    {
+     "cle": "terme-exact-pluriel",
+     "etat": "ok",
+     "retenus": 3
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 2
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-11-25",
    "items": [
@@ -14,6 +41,18 @@
      "gnews": "",
      "resolu": false,
      "source": "lamanchelibre.fr",
+     "published": "2026-11-25",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u2b2c0d29",
+     "title": "Handicap au travail : plus de 20 ans d'engagement chez Bouygues Telecom",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaHYwcldkQ3NlU1Z2UmlEY2FqdUpyM185clM4WmNRT2xNenpmLW9uVkI4dlF2RnVrRDFYRjU2dE1CZF9uamRBNEFtOXprQUU1NjRPNnJzRGc5Mmo1aTczUlJTSGhUR003aHQ2a25hTXRoWWlJeXBVdjJ2aVJVVU1UcnY2QXBGLWxqVHN5ajAwVHYzRmtpbVRlVENnb0lDNGNneTVlNVVMOUwtWFQ5eE92N2ZVb2RRa0gyQUZqbDdvbHF6b0Y1WTcwc3JJeXp0ZUZkeHhRRVUxWUVET1djVXEyLWJ0cDNNeE9J?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "Bouygues Telecom",
      "published": "2026-11-25",
      "feed": "terme-exact",
      "summary": "",

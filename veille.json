@@ -1,13 +1,13 @@
 {
- "genere": "2026-11-25T12:42:04+00:00",
+ "genere": "2026-11-26T02:45:31+00:00",
  "fenetre_jours": 14,
  "flux": [
   {
    "cle": "terme-exact",
    "requete": "\"groupe d'entraide mutuelle\" when:14d",
    "etat": "ok",
-   "bruts": 9,
-   "retenus": 9,
+   "bruts": 10,
+   "retenus": 10,
    "hors_fenetre": 0,
    "exclus": 0,
    "plus_recent": "2026-11-25"
@@ -43,8 +43,16 @@
    "plus_recent": ""
   }
  ],
- "total": 12,
+ "total": 13,
  "items": [
+  {
+   "id": "u2b2c0d29",
+   "title": "Handicap au travail : plus de 20 ans d'engagement chez Bouygues Telecom",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaHYwcldkQ3NlU1Z2UmlEY2FqdUpyM185clM4WmNRT2xNenpmLW9uVkI4dlF2RnVrRDFYRjU2dE1CZF9uamRBNEFtOXprQUU1NjRPNnJzRGc5Mmo1aTczUlJTSGhUR003aHQ2a25hTXRoWWlJeXBVdjJ2aVJVVU1UcnY2QXBGLWxqVHN5ajAwVHYzRmtpbVRlVENnb0lDNGNneTVlNVVMOUwtWFQ5eE92N2ZVb2RRa0gyQUZqbDdvbHF6b0Y1WTcwc3JJeXp0ZUZkeHhRRVUxWUVET1djVXEyLWJ0cDNNeE9J?oc=5",
+   "source": "Bouygues Telecom",
+   "published": "2026-11-25",
+   "feed": "terme-exact"
+  },
   {
    "id": "ub1bcc212",
    "title": "Coutances. Le Gem Arrimage fait ses débuts sur les ondes avec une association",
@@ -134,9 +142,9 @@
    "feed": "terme-exact"
   },
   {
-   "id": "u925d9f32",
+   "id": "ucdea486e",
    "title": "Les Invités au Festin : cinq dispositifs repris par la Fondation Pluriel",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMjI0dkptTGUtUVZVV2xic0dDYnE5V01aU09KZ2lzRVJJVzJGWnNRcVh1eU1UOGFzNG1TVEVXLXJhVGRaeHRUQm5JeV9KR0VJQWpTMnBSTHZCa2htbEgtckxkOEsteG5HUXotNFBmN2ltaU5LOFJzb3YtWmc3Zy1ZUGpQNURENWxNdzhuTE1NNUgxQThYSXRFZHpjTm9iMlZZWGs0SzB1T2dtREpzNWI3WEdiTQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQR21tay05MVVWb0JZcEhDSWd6UGtiTzNZcUUwZUNueWV5U3pLUFBsYkI1WUNUUmxNRUNnOVByVVNmMkQ5dnhmZkdraXdJWUpSclFEbUhvMF8tZFc5STlieUd4STcyX0JfV2VzbVlvaTBpMm1TNjI0bmMtbVZYbEtxUmdFNzNVLWlhaUowcFY5YnFNcjJBdWR5ZEl4azRTeGVpTlFPTW9Wc2hoWFZFaC12TjJGYmhleHRm?oc=5",
    "source": "Plein Air",
    "published": "2026-11-14",
    "feed": "terme-exact"
