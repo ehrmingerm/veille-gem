@@ -1,18 +1,43 @@
 {
- "maj": "2026-11-26T02:45:31+00:00",
+ "maj": "2026-11-26T12:16:39+00:00",
  "jours_couverts": 37,
- "total": 35,
- "liens_non_resolus": 35,
+ "total": 37,
+ "liens_non_resolus": 37,
  "jours": [
   {
    "date": "2026-11-26",
-   "items": [],
-   "collecte": "2026-11-26T02:45:31+00:00",
+   "items": [
+    {
+     "id": "ua6c82e7b",
+     "title": "Monistrol-sur-Loire : un Groupe d'Entraide Mutuelle a ouvert dans le centre-ville pour rompre l'isolement",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15bDdpOEczMUd0eWZrRFJQZHRwQ2ZycklIZFNObWFSUEFDUkFFdGg4YW1scTRUZW5iYXhBdWEyZnpFczA4X0hCUkZsM3hsLXQyWWN1QkVCWEpZc0xJLWVCeDNmbmo0VnVsQmV1M1RGYjdaQVphaXhfOWJlTmRwZw?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "La Commère 43",
+     "published": "2026-11-26",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u4f2c8016",
+     "title": "Au quartier GEM à Narbonne, de petites sorties pour de grands pas vers la vie pour les jeunes atteints de troubles psychiques",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPSEx1UDJiZGVYV2dSbVM1blJKM3U4LWVreUJvclA2RDBmbHhrZDltS0VfRDFlckp4YWdsV1hJSFNIdkdmZ1c3T1F4RUJMMFpIekNOdDEzcXdMeXNSWHhIRXYyME5acUN5SWZIWXpUdlRwQ3l0WUt6NEFTRjBkNmZRQVYwcDI4NWJNSlJXSXZndDlBdUIyVEY4cEVoOXp1M1NRemNxMTRDd3B1WUlvSHNBQzVVSk5nNWQ1cER1N3VQWVRfeDJzR0l2MWtXM1hKQm56MmVyNHJlbVljdmZQYllLVmM5Vkp5S3FNd3h6ZU5pejliTWtfVG4yVnZISGdCaW5Db2RWZW5LVQ?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "L'Indépendant",
+     "published": "2026-11-26",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-11-26T12:16:39+00:00",
    "flux": [
     {
      "cle": "terme-exact",
      "etat": "ok",
-     "retenus": 10
+     "retenus": 8
     },
     {
      "cle": "terme-exact-pluriel",
