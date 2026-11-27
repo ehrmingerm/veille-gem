@@ -1,5 +1,5 @@
 {
- "genere": "2026-11-27T02:46:52+00:00",
+ "genere": "2026-11-27T12:02:26+00:00",
  "fenetre_jours": 14,
  "flux": [
   {
@@ -10,14 +10,14 @@
    "retenus": 8,
    "hors_fenetre": 0,
    "exclus": 0,
-   "plus_recent": "2026-11-26"
+   "plus_recent": "2026-11-27"
   },
   {
    "cle": "terme-exact-pluriel",
    "requete": "\"groupes d'entraide mutuelle\" when:14d",
    "etat": "ok",
-   "bruts": 4,
-   "retenus": 4,
+   "bruts": 3,
+   "retenus": 3,
    "hors_fenetre": 0,
    "exclus": 0,
    "plus_recent": "2026-11-25"
@@ -26,11 +26,11 @@
    "cle": "sigle-qualifie",
    "requete": "GEM (\"santé mentale\" OR \"handicap psychique\" OR \"pair-aidance\") when:14d",
    "etat": "ok",
-   "bruts": 1,
-   "retenus": 1,
+   "bruts": 2,
+   "retenus": 2,
    "hors_fenetre": 0,
    "exclus": 0,
-   "plus_recent": "2026-11-20"
+   "plus_recent": "2026-11-21"
   },
   {
    "cle": "federation",
@@ -45,6 +45,14 @@
  ],
  "total": 12,
  "items": [
+  {
+   "id": "u693ee59c",
+   "title": "Bayeux. Le Groupe d'entraide mutuelle organise son marché de Noël",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM29ya0Nwbk1pcFJXbjQxYzVVZkNYZXczNVZNVDR2SGYtWEhfbmNEYjFONzBWYVZRTmY0UElhckNTb0lTUnJkUkZieEVVLVNkbTRJYm16LURZYUZpcFd3MDlEVEljQzB5Z0t0TGRyRjlrd0NWMVdudHc5LXpiVU13cEZNNnZWckJ2N282RE82TkN5cFRha0hmTlFsRjV4c1lkeWhSUDlrR2hyUXFSaWFrNA?oc=5",
+   "source": "lamanchelibre.fr",
+   "published": "2026-11-27",
+   "feed": "terme-exact"
+  },
   {
    "id": "ua6c82e7b",
    "title": "Monistrol-sur-Loire : un Groupe d'Entraide Mutuelle a ouvert dans le centre-ville pour rompre l'isolement",
@@ -102,20 +110,12 @@
    "feed": "terme-exact-pluriel"
   },
   {
-   "id": "ud1c56df6",
-   "title": "La Chapelle-sur-Erdre. Le Rendez-vous des Possibles : deux semaines dédiées au handicap",
-   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOQ0FUWkVsbUJvdE5oQ2JrU0NXYlRucHRoMUN3Tkh5TmJPZHVlVXlPcmxzNm41S1kwOVc3M0hQWFRWOFpodVNMaTJVaTNpR09WMjJXRzdRbUxueWFmY2J1QmdRSmRZRTMwSGpJckNfX3cyWk1Ybk1Ra2VMbU1aY0FTeU9qNXF6RWlpd2J2eDY1cnNKSnRhcGlpWURRME1UdDZUem1LTU5RWWZ5RmZ2SlZZUXM0dmF3WmVoMDdhMUFVTElqVGNvTkN2QjRUZURoWlNBQXhqVGE3d2JWRDAxT0lCTVY1YlFyNTR0VnlONzUtWHNoTFNpWG55S0lXUkUxeWkydi1PSjBMQkVJSGc2U3RqODhSNEh1djNGRzNDdzlPOA?oc=5",
-   "source": "Ouest-France",
-   "published": "2026-11-23",
-   "feed": "terme-exact"
-  },
-  {
-   "id": "ue939fc6b",
-   "title": "Les psychologues cliniciens réclament de donner la priorité à la prise en charge des survivants du suicide dans les politiques de prévention",
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOdUZjN0hkQWZOS3AtYV9UYzRiYWZuY1phOGNQcDRUbHFvU1ZjVUIxcWVRWjR3NVBYdmRwMXl2ZjBueWoyTjZ1SnlCUDh2UjBmSXJGTVlTenhodFFHeFBHNHcta2NOZFQwWXB4MjFEUUFtYlZqY21Od3llS0xRdm9kbnJydWlJdk1GeG9kdHlMWWJXbi1QVU03MS1heVBrSjMwNmFQNW9NUkh4MXA3NmFkSm0yNGVTMDlEcEVjTkIwQ1FiSzB4STBhb3dVeXJfVjJxdmdEYnAyUng0enpSbXo4ekFlR1pCNmR1N1RQbVkzMmFabmFQRTZmLUtpMkFLekFyR2dtcW1n0gGLAkFVX3lxTE1DOGhSYWlRVk5rblhZY21rOXEyaXJCM2VwNXNES01qejdUTkgtM0xRMGZYazhMTnB3aTctSWIzUmRPT0JyckZaWF9GYzVjTW8wSm8wSHl2QktiQ2xoWjFHUU9sSXJyZ0hSN0Z4Rk02RFZIcDNrNVJ6ZkFfU0MxUzJ3dEFxMXF3Y2pMUFZKbzNWb0RGOWJjd0xaeVpYZDc0el9kNjJXaUZqaWVERGp3QzYySXotLUQ3eE1kck9sSmh2Znc5ZGNqWkdQVURDZXB6MjlZUk5aSHBMNFFVaGNvMUZZbnNYdTF4MGtTd01RbDkwdTRGSkN1OVU1dXZ3aGFwSkpKX2VTQi1HakViUQ?oc=5",
-   "source": "Demócrata",
-   "published": "2026-11-20",
-   "feed": "terme-exact-pluriel"
+   "id": "u5d3516a0",
+   "title": "Souad, 45 ans. Schizophrène rétablie, cette Haguenovienne craint qu’on « coupe les vannes » aux structures œuvrant pour la santé mentale",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVXFXeXIyNTJLeVVJcWk1aWRFR2d4RzJiQWV3d1JQU3FlRVJra1JzWDhPazRmVFJpVmZXUWZBcVZWalhiNVBQcFd4cnA2Q1NQVmxCXzBpWnlsUHExWEQ4WGNqUmpPdkN4VXJvS2dYN2R5UXlINmp5RjFmb1dKbWhQMVRCYXc0bzR3dHpUTVpteE9KS1Z6LVhmLXpEV0RPQmRvdW9ZeWRxeXdHNm1RNWRFdkI3dE9QNWhZWVF3a0R3N1JBTExaMVNQTjBGVDVaZ0ptdnQzcw?oc=5",
+   "source": "dna.fr",
+   "published": "2026-11-21",
+   "feed": "sigle-qualifie"
   },
   {
    "id": "u180520a2",

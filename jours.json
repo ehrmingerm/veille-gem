@@ -1,13 +1,26 @@
 {
- "maj": "2026-11-27T02:46:52+00:00",
+ "maj": "2026-11-27T12:02:26+00:00",
  "jours_couverts": 38,
- "total": 39,
- "liens_non_resolus": 39,
+ "total": 40,
+ "liens_non_resolus": 40,
  "jours": [
   {
    "date": "2026-11-27",
-   "items": [],
-   "collecte": "2026-11-27T02:46:52+00:00",
+   "items": [
+    {
+     "id": "u693ee59c",
+     "title": "Bayeux. Le Groupe d'entraide mutuelle organise son marché de Noël",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM29ya0Nwbk1pcFJXbjQxYzVVZkNYZXczNVZNVDR2SGYtWEhfbmNEYjFONzBWYVZRTmY0UElhckNTb0lTUnJkUkZieEVVLVNkbTRJYm16LURZYUZpcFd3MDlEVEljQzB5Z0t0TGRyRjlrd0NWMVdudHc5LXpiVU13cEZNNnZWckJ2N282RE82TkN5cFRha0hmTlFsRjV4c1lkeWhSUDlrR2hyUXFSaWFrNA?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "lamanchelibre.fr",
+     "published": "2026-11-27",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    }
+   ],
+   "collecte": "2026-11-27T12:02:26+00:00",
    "flux": [
     {
      "cle": "terme-exact",
@@ -17,12 +30,12 @@
     {
      "cle": "terme-exact-pluriel",
      "etat": "ok",
-     "retenus": 4
+     "retenus": 3
     },
     {
      "cle": "sigle-qualifie",
      "etat": "ok",
-     "retenus": 1
+     "retenus": 2
     },
     {
      "cle": "federation",
