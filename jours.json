@@ -1,9 +1,36 @@
 {
- "maj": "2026-11-26T12:16:39+00:00",
- "jours_couverts": 37,
- "total": 37,
- "liens_non_resolus": 37,
+ "maj": "2026-11-27T02:46:52+00:00",
+ "jours_couverts": 38,
+ "total": 39,
+ "liens_non_resolus": 39,
  "jours": [
+  {
+   "date": "2026-11-27",
+   "items": [],
+   "collecte": "2026-11-27T02:46:52+00:00",
+   "flux": [
+    {
+     "cle": "terme-exact",
+     "etat": "ok",
+     "retenus": 8
+    },
+    {
+     "cle": "terme-exact-pluriel",
+     "etat": "ok",
+     "retenus": 4
+    },
+    {
+     "cle": "sigle-qualifie",
+     "etat": "ok",
+     "retenus": 1
+    },
+    {
+     "cle": "federation",
+     "etat": "ok",
+     "retenus": 0
+    }
+   ]
+  },
   {
    "date": "2026-11-26",
    "items": [
@@ -80,6 +107,30 @@
      "source": "Bouygues Telecom",
      "published": "2026-11-25",
      "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "u3ce2dc72",
+     "title": "Monistrol-sur-Loire : une chatte disparu depuis une semaine sur la route du Pont de Lignon",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPQzJSanZCQzJTRFZjZW9zVEhya3hzZFcwWEJrSkZhOTJ5LVlrNGxEdTk4LU1yOUxqdUUydTljX3I5d2M3dllXaDlsMEFFVUNOQ0FFeEEwVnlaMUdUVW9WRHJXSzlONUJNZGg2TVVEUHVLWGJPajJybWpadGJCZ09jQnFrN3hPOEtPUnB6MTYxemFYN3dLb285ajRyR3NqbzNKVEhHQjZ4TEJHTzhBb1VCNVp2NU8xb3I4VTlHSnN5N043OWhiRWxIOVQwa3V1a1l0TnNLT0F6bTZIbTYwN2VrZ2RVUnZmdGNT?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "La Commère 43",
+     "published": "2026-11-25",
+     "feed": "terme-exact",
+     "summary": "",
+     "statut": ""
+    },
+    {
+     "id": "uc7f1167e",
+     "title": "Santé mentale : entre le généraliste et l’hôpital, le chaînon manquant",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVmNCSXd4N3NvN2R4QUxWdDZMb2R5ajVmQ1NOY2l1SnpublJhT1FuSnNoN3pjY25LZE5IdHY5a1NsZE9RamVRVU5OS2xjYUJXRFpvSjJfYzJuLTk4SmRGTmpJcG5OZmJxM2RQTWNOMDRhNFJPbFFTQi1ReElJa0w4MXd3LVh2ZHBuc29vdkVkdkpJSXVqa01EdkZkS0VwcnhwVDBV?oc=5",
+     "gnews": "",
+     "resolu": false,
+     "source": "The Conversation",
+     "published": "2026-11-25",
+     "feed": "terme-exact-pluriel",
      "summary": "",
      "statut": ""
     }
